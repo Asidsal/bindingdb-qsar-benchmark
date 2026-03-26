@@ -1,0 +1,35 @@
+# Article 01 — BindingDB QSAR Benchmark
+# Abubakar Siddiq Salihu et al. (2026)
+# J. Chem. Inf. Model. (submitted)
+#
+# Install all dependencies:
+#   pip install -r requirements.txt
+#
+# Recommended: create a fresh conda environment first:
+#   conda create -n bindingdb_qsar python=3.10
+#   conda activate bindingdb_qsar
+#   pip install -r requirements.txt
+
+# Core
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.11.0
+tqdm>=4.65.0
+joblib>=1.3.0
+
+# Database query
+duckdb>=0.9.0
+
+# Cheminformatics
+rdkit>=2023.3.1
+
+# Machine learning
+scikit-learn>=1.3.0
+xgboost>=1.7.0
+
+# Statistics
+statsmodels>=0.14.0
+
+# Visualisation
+matplotlib>=3.7.0
+seaborn>=0.12.0

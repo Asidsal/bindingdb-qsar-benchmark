@@ -1,0 +1,793 @@
+uniprot_id,target_name,target_class,model,n_train,n_test,n_active_test,AUROC,AUPRC,BEDROC,EF1pct,EF5pct,feature_set
+Q06187,Tyrosine-protein kinase BTK,Kinase,RandomForest,8800,2199,2188,0.9712,0.9998,0.9523,1.005,1.005,morgan
+Q06187,Tyrosine-protein kinase BTK,Kinase,XGBoost,8800,2199,2188,0.9509,0.9997,0.9523,1.005,1.005,morgan
+Q06187,Tyrosine-protein kinase BTK,Kinase,SVM_RBF,8800,2199,2188,0.9243,0.9995,0.9523,1.005,1.005,morgan
+Q06187,Tyrosine-protein kinase BTK,Kinase,DNN,8800,2199,2188,0.9256,0.9996,0.9523,1.005,1.005,morgan
+P00533,Epidermal growth factor receptor,GPCR,RandomForest,6839,1722,1648,0.9395,0.9963,0.9899,1.045,1.045,morgan
+P00533,Epidermal growth factor receptor,GPCR,XGBoost,6839,1722,1648,0.9298,0.9953,0.9894,1.045,1.045,morgan
+P00533,Epidermal growth factor receptor,GPCR,SVM_RBF,6839,1722,1648,0.9564,0.9979,0.9899,1.045,1.045,morgan
+P00533,Epidermal growth factor receptor,GPCR,DNN,6839,1722,1648,0.9307,0.9954,0.988,1.045,1.045,morgan
+O00329,"Phosphatidylinositol 4,5-bisphosphate 3-kinase cat",Kinase,RandomForest,6694,1689,1682,0.9995,1.0,0.9257,1.004,1.004,morgan
+O00329,"Phosphatidylinositol 4,5-bisphosphate 3-kinase cat",Kinase,XGBoost,6694,1689,1682,0.869,0.9994,0.9257,1.004,1.004,morgan
+O00329,"Phosphatidylinositol 4,5-bisphosphate 3-kinase cat",Kinase,SVM_RBF,6694,1689,1682,0.9954,1.0,0.9257,1.004,1.004,morgan
+O00329,"Phosphatidylinositol 4,5-bisphosphate 3-kinase cat",Kinase,DNN,6694,1689,1682,0.9281,0.9996,0.9257,1.004,1.004,morgan
+P56817,Beta-secretase 1,Protease,RandomForest,6510,1637,1624,0.9871,0.9999,0.9585,1.008,1.008,morgan
+P56817,Beta-secretase 1,Protease,XGBoost,6510,1637,1624,0.9948,1.0,0.9585,1.008,1.008,morgan
+P56817,Beta-secretase 1,Protease,SVM_RBF,6510,1637,1624,0.9835,0.9999,0.9585,1.008,1.008,morgan
+P56817,Beta-secretase 1,Protease,DNN,6510,1637,1624,0.9757,0.9998,0.9585,1.008,1.008,morgan
+P29274,Adenosine receptor A2a,GPCR,RandomForest,6125,1533,1500,0.9764,0.9995,0.9814,1.022,1.022,morgan
+P29274,Adenosine receptor A2a,GPCR,XGBoost,6125,1533,1500,0.9566,0.999,0.9814,1.022,1.022,morgan
+P29274,Adenosine receptor A2a,GPCR,SVM_RBF,6125,1533,1500,0.8956,0.9973,0.9814,1.022,1.022,morgan
+P29274,Adenosine receptor A2a,GPCR,DNN,6125,1533,1500,0.9462,0.9987,0.9814,1.022,1.022,morgan
+Q13547,Histone deacetylase 1,Epigenetic,RandomForest,6000,1502,1356,0.9483,0.9924,0.9902,1.108,1.108,morgan
+Q13547,Histone deacetylase 1,Epigenetic,XGBoost,6000,1502,1356,0.9505,0.9915,0.98,1.108,1.093,morgan
+Q13547,Histone deacetylase 1,Epigenetic,SVM_RBF,6000,1502,1356,0.9445,0.9904,0.9787,1.034,1.093,morgan
+Q13547,Histone deacetylase 1,Epigenetic,DNN,6000,1502,1356,0.9366,0.9904,0.9901,1.108,1.108,morgan
+P14416,D(2) dopamine receptor,GPCR,RandomForest,5826,1466,1449,0.998,1.0,0.9671,1.012,1.012,morgan
+P14416,D(2) dopamine receptor,GPCR,XGBoost,5826,1466,1449,0.9967,1.0,0.9671,1.012,1.012,morgan
+P14416,D(2) dopamine receptor,GPCR,SVM_RBF,5826,1466,1449,0.9906,0.9999,0.9671,1.012,1.012,morgan
+P14416,D(2) dopamine receptor,GPCR,DNN,5826,1466,1449,0.9924,0.9999,0.9671,1.012,1.012,morgan
+P00918,Carbonic anhydrase 2,Lyase,RandomForest,5716,1441,1295,0.9117,0.9809,0.9737,1.113,1.097,morgan
+P00918,Carbonic anhydrase 2,Lyase,XGBoost,5716,1441,1295,0.9015,0.9817,0.9817,1.113,1.097,morgan
+P00918,Carbonic anhydrase 2,Lyase,SVM_RBF,5716,1441,1295,0.9004,0.9836,0.9816,1.113,1.097,morgan
+P00918,Carbonic anhydrase 2,Lyase,DNN,5716,1441,1295,0.8965,0.9839,0.9906,1.113,1.113,morgan
+P24941,Cyclin-dependent kinase 2,Kinase,RandomForest,5720,1431,1404,0.9289,0.9985,0.9778,1.019,1.019,morgan
+P24941,Cyclin-dependent kinase 2,Kinase,XGBoost,5720,1431,1404,0.9185,0.9983,0.9778,1.019,1.019,morgan
+P24941,Cyclin-dependent kinase 2,Kinase,SVM_RBF,5720,1431,1404,0.8275,0.9954,0.9776,1.019,1.019,morgan
+P24941,Cyclin-dependent kinase 2,Kinase,DNN,5720,1431,1404,0.9031,0.9979,0.9778,1.019,1.019,morgan
+P35968,Vascular endothelial growth factor receptor 2,GPCR,RandomForest,5306,1349,1332,0.9766,0.9997,0.9668,1.013,1.013,morgan
+P35968,Vascular endothelial growth factor receptor 2,GPCR,XGBoost,5306,1349,1332,0.9658,0.9995,0.9668,1.013,1.013,morgan
+P35968,Vascular endothelial growth factor receptor 2,GPCR,SVM_RBF,5306,1349,1332,0.9692,0.9995,0.9668,1.013,1.013,morgan
+P35968,Vascular endothelial growth factor receptor 2,GPCR,DNN,5306,1349,1332,0.9822,0.9998,0.9668,1.013,1.013,morgan
+P29597,Non-receptor tyrosine-protein kinase TYK2,Kinase,RandomForest,5236,1340,1325,0.994,0.9999,0.9629,1.011,1.011,morgan
+P29597,Non-receptor tyrosine-protein kinase TYK2,Kinase,XGBoost,5236,1340,1325,0.9944,0.9999,0.9629,1.011,1.011,morgan
+P29597,Non-receptor tyrosine-protein kinase TYK2,Kinase,SVM_RBF,5236,1340,1325,0.9953,0.9999,0.9629,1.011,1.011,morgan
+P29597,Non-receptor tyrosine-protein kinase TYK2,Kinase,DNN,5236,1340,1325,0.9858,0.9998,0.9629,1.011,1.011,morgan
+Q9UBN7,Histone deacetylase 6,Epigenetic,RandomForest,4631,1172,1145,0.977,0.9994,0.977,1.024,1.024,morgan
+Q9UBN7,Histone deacetylase 6,Epigenetic,XGBoost,4631,1172,1145,0.9701,0.9992,0.977,1.024,1.024,morgan
+Q9UBN7,Histone deacetylase 6,Epigenetic,SVM_RBF,4631,1172,1145,0.9397,0.9961,0.9468,1.024,1.006,morgan
+Q9UBN7,Histone deacetylase 6,Epigenetic,DNN,4631,1172,1145,0.9795,0.9995,0.977,1.024,1.024,morgan
+P35372,Mu-type opioid receptor,GPCR,RandomForest,4363,1100,1088,0.9954,0.9999,0.9538,1.011,1.011,morgan
+P35372,Mu-type opioid receptor,GPCR,XGBoost,4363,1100,1088,0.9902,0.9999,0.9538,1.011,1.011,morgan
+P35372,Mu-type opioid receptor,GPCR,SVM_RBF,4363,1100,1088,0.9961,1.0,0.9538,1.011,1.011,morgan
+P35372,Mu-type opioid receptor,GPCR,DNN,4363,1100,1088,0.9956,1.0,0.9538,1.011,1.011,morgan
+P00915,Carbonic anhydrase 1,Lyase,RandomForest,4033,1022,884,0.9041,0.9809,0.9869,1.156,1.156,morgan
+P00915,Carbonic anhydrase 1,Lyase,XGBoost,4033,1022,884,0.8874,0.9783,0.9887,1.156,1.156,morgan
+P00915,Carbonic anhydrase 1,Lyase,SVM_RBF,4033,1022,884,0.875,0.9773,0.9884,1.156,1.156,morgan
+P00915,Carbonic anhydrase 1,Lyase,DNN,4033,1022,884,0.8712,0.9781,0.9895,1.156,1.156,morgan
+P49841,Glycogen synthase kinase-3 beta,Kinase,RandomForest,3969,998,875,0.9784,0.9971,0.9891,1.141,1.141,morgan
+P49841,Glycogen synthase kinase-3 beta,Kinase,XGBoost,3969,998,875,0.9773,0.9969,0.9891,1.141,1.141,morgan
+P49841,Glycogen synthase kinase-3 beta,Kinase,SVM_RBF,3969,998,875,0.9676,0.9957,0.9891,1.141,1.141,morgan
+P49841,Glycogen synthase kinase-3 beta,Kinase,DNN,3969,998,875,0.9758,0.9967,0.9891,1.141,1.141,morgan
+Q16790,Carbonic anhydrase 9,Lyase,RandomForest,3736,948,913,0.9454,0.9978,0.9799,1.038,1.038,morgan
+Q16790,Carbonic anhydrase 9,Lyase,XGBoost,3736,948,913,0.848,0.9935,0.9799,1.038,1.038,morgan
+Q16790,Carbonic anhydrase 9,Lyase,SVM_RBF,3736,948,913,0.7372,0.9858,0.9775,1.038,1.038,morgan
+Q16790,Carbonic anhydrase 9,Lyase,DNN,3736,948,913,0.8223,0.9914,0.9797,1.038,1.038,morgan
+P15056,Serine/threonine-protein kinase B-raf [409-765],Kinase,RandomForest,3723,939,934,0.997,1.0,0.895,1.005,1.005,morgan
+P15056,Serine/threonine-protein kinase B-raf [409-765],Kinase,XGBoost,3723,939,934,0.994,1.0,0.895,1.005,1.005,morgan
+P15056,Serine/threonine-protein kinase B-raf [409-765],Kinase,SVM_RBF,3723,939,934,0.997,1.0,0.895,1.005,1.005,morgan
+P15056,Serine/threonine-protein kinase B-raf [409-765],Kinase,DNN,3723,939,934,0.9968,1.0,0.895,1.005,1.005,morgan
+O60341,Lysine-specific histone demethylase 1A,Epigenetic,RandomForest,3678,930,887,0.9929,0.9997,0.9822,1.048,1.048,morgan
+O60341,Lysine-specific histone demethylase 1A,Epigenetic,XGBoost,3678,930,887,0.9873,0.9993,0.9822,1.048,1.048,morgan
+O60341,Lysine-specific histone demethylase 1A,Epigenetic,SVM_RBF,3678,930,887,0.9775,0.9989,0.9822,1.048,1.048,morgan
+O60341,Lysine-specific histone demethylase 1A,Epigenetic,DNN,3678,930,887,0.9785,0.9987,0.9822,1.048,1.048,morgan
+P30542,Adenosine receptor A1,GPCR,RandomForest,3588,899,893,0.991,0.9999,0.9113,1.007,1.007,morgan
+P30542,Adenosine receptor A1,GPCR,XGBoost,3588,899,893,0.9922,0.9999,0.9113,1.007,1.007,morgan
+P30542,Adenosine receptor A1,GPCR,SVM_RBF,3588,899,893,0.9923,0.9999,0.9113,1.007,1.007,morgan
+P30542,Adenosine receptor A1,GPCR,DNN,3588,899,893,0.9854,0.9999,0.9113,1.007,1.007,morgan
+P00742,Coagulation factor X,Protease,RandomForest,3556,904,870,0.9933,0.9997,0.9792,1.039,1.039,morgan
+P00742,Coagulation factor X,Protease,XGBoost,3556,904,870,0.9952,0.9998,0.9792,1.039,1.039,morgan
+P00742,Coagulation factor X,Protease,SVM_RBF,3556,904,870,0.9549,0.9979,0.9791,1.039,1.039,morgan
+P00742,Coagulation factor X,Protease,DNN,3556,904,870,0.9897,0.9996,0.9792,1.039,1.039,morgan
+P48736,"Phosphatidylinositol 4,5-bisphosphate 3-kinase cat",Kinase,RandomForest,3536,883,798,0.9969,0.9996,0.9868,1.107,1.107,morgan
+P48736,"Phosphatidylinositol 4,5-bisphosphate 3-kinase cat",Kinase,XGBoost,3536,883,798,0.9977,0.9998,0.9868,1.107,1.107,morgan
+P48736,"Phosphatidylinositol 4,5-bisphosphate 3-kinase cat",Kinase,SVM_RBF,3536,883,798,0.9873,0.9984,0.9868,1.107,1.107,morgan
+P48736,"Phosphatidylinositol 4,5-bisphosphate 3-kinase cat",Kinase,DNN,3536,883,798,0.9862,0.9981,0.9868,1.107,1.107,morgan
+P0DMS8,Adenosine receptor A3,GPCR,RandomForest,3511,897,890,0.9796,0.9998,0.9231,1.008,1.008,morgan
+P0DMS8,Adenosine receptor A3,GPCR,XGBoost,3511,897,890,0.9537,0.9996,0.9231,1.008,1.008,morgan
+P0DMS8,Adenosine receptor A3,GPCR,SVM_RBF,3511,897,890,0.9825,0.9999,0.9231,1.008,1.008,morgan
+P0DMS8,Adenosine receptor A3,GPCR,DNN,3511,897,890,0.9854,0.9999,0.9231,1.008,1.008,morgan
+P11802,Cyclin-dependent kinase 4/G1/S-specific cyclin-D1,Kinase,RandomForest,3412,866,862,0.7271,0.9985,0.8696,1.005,1.005,morgan
+P11802,Cyclin-dependent kinase 4/G1/S-specific cyclin-D1,Kinase,XGBoost,3412,866,862,0.4893,0.9967,0.8695,1.005,1.005,morgan
+P11802,Cyclin-dependent kinase 4/G1/S-specific cyclin-D1,Kinase,SVM_RBF,3412,866,862,0.8968,0.9995,0.8696,1.005,1.005,morgan
+P11802,Cyclin-dependent kinase 4/G1/S-specific cyclin-D1,Kinase,DNN,3412,866,862,0.3472,0.9933,0.7935,1.005,1.005,morgan
+P31645,Sodium-dependent serotonin transporter,GPCR,RandomForest,3373,882,873,0.9235,0.999,0.9388,1.01,1.01,morgan
+P31645,Sodium-dependent serotonin transporter,GPCR,XGBoost,3373,882,873,0.9062,0.9988,0.9388,1.01,1.01,morgan
+P31645,Sodium-dependent serotonin transporter,GPCR,SVM_RBF,3373,882,873,0.8824,0.9983,0.9387,1.01,1.01,morgan
+P31645,Sodium-dependent serotonin transporter,GPCR,DNN,3373,882,873,0.9225,0.999,0.9388,1.01,1.01,morgan
+P27487,Dipeptidyl peptidase 4,Protease,RandomForest,3278,830,733,0.9881,0.9984,0.9867,1.132,1.132,morgan
+P27487,Dipeptidyl peptidase 4,Protease,XGBoost,3278,830,733,0.978,0.9966,0.9867,1.132,1.132,morgan
+P27487,Dipeptidyl peptidase 4,Protease,SVM_RBF,3278,830,733,0.9769,0.9967,0.9867,1.132,1.132,morgan
+P27487,Dipeptidyl peptidase 4,Protease,DNN,3278,830,733,0.9751,0.9961,0.9867,1.132,1.132,morgan
+P42345,Serine/threonine-protein kinase mTOR,Kinase,RandomForest,3138,795,792,0.9769,0.9999,0.8277,1.004,1.004,morgan
+P42345,Serine/threonine-protein kinase mTOR,Kinase,XGBoost,3138,795,792,0.9954,1.0,0.8277,1.004,1.004,morgan
+P42345,Serine/threonine-protein kinase mTOR,Kinase,SVM_RBF,3138,795,792,0.8725,0.9995,0.8277,1.004,1.004,morgan
+P42345,Serine/threonine-protein kinase mTOR,Kinase,DNN,3138,795,792,0.9512,0.9998,0.8277,1.004,1.004,morgan
+Q16539,Mitogen-activated protein kinase 14,Kinase,RandomForest,3074,785,767,0.999,1.0,0.9655,1.023,1.023,morgan
+Q16539,Mitogen-activated protein kinase 14,Kinase,XGBoost,3074,785,767,0.9962,0.9999,0.9655,1.023,1.023,morgan
+Q16539,Mitogen-activated protein kinase 14,Kinase,SVM_RBF,3074,785,767,0.9924,0.9998,0.9655,1.023,1.023,morgan
+Q16539,Mitogen-activated protein kinase 14,Kinase,DNN,3074,785,767,0.9979,1.0,0.9655,1.023,1.023,morgan
+O43570,Carbonic anhydrase 12,Lyase,RandomForest,3070,784,765,0.7608,0.992,0.9648,1.025,1.025,morgan
+O43570,Carbonic anhydrase 12,Lyase,XGBoost,3070,784,765,0.7727,0.9925,0.9659,1.025,1.025,morgan
+O43570,Carbonic anhydrase 12,Lyase,SVM_RBF,3070,784,765,0.6719,0.9867,0.9444,1.025,1.025,morgan
+O43570,Carbonic anhydrase 12,Lyase,DNN,3070,784,765,0.7168,0.9898,0.9647,1.025,1.025,morgan
+P21554,Cannabinoid receptor 1,GPCR,RandomForest,2930,738,733,0.9918,0.9999,0.8936,1.007,1.007,morgan
+P21554,Cannabinoid receptor 1,GPCR,XGBoost,2930,738,733,0.9948,1.0,0.8936,1.007,1.007,morgan
+P21554,Cannabinoid receptor 1,GPCR,SVM_RBF,2930,738,733,0.9932,1.0,0.8936,1.007,1.007,morgan
+P21554,Cannabinoid receptor 1,GPCR,DNN,2930,738,733,0.9967,1.0,0.8936,1.007,1.007,morgan
+P43405,Tyrosine-protein kinase SYK,Kinase,RandomForest,2862,718,693,0.998,0.9999,0.9724,1.036,1.036,morgan
+P43405,Tyrosine-protein kinase SYK,Kinase,XGBoost,2862,718,693,0.9902,0.9996,0.9724,1.036,1.036,morgan
+P43405,Tyrosine-protein kinase SYK,Kinase,SVM_RBF,2862,718,693,0.9927,0.9997,0.9724,1.036,1.036,morgan
+P43405,Tyrosine-protein kinase SYK,Kinase,DNN,2862,718,693,0.9983,0.9999,0.9724,1.036,1.036,morgan
+Q8NER1,Transient receptor potential cation channel subfam,GPCR,RandomForest,2517,663,636,0.9984,0.9999,0.9731,1.042,1.042,morgan
+Q8NER1,Transient receptor potential cation channel subfam,GPCR,XGBoost,2517,663,636,0.9977,0.9999,0.9731,1.042,1.042,morgan
+Q8NER1,Transient receptor potential cation channel subfam,GPCR,SVM_RBF,2517,663,636,0.9958,0.9998,0.9731,1.042,1.042,morgan
+Q8NER1,Transient receptor potential cation channel subfam,GPCR,DNN,2517,663,636,0.9964,0.9998,0.9731,1.042,1.042,morgan
+P22303,Acetylcholinesterase,Hydrolase,RandomForest,2469,624,400,0.895,0.9472,0.9837,1.56,1.56,morgan
+P22303,Acetylcholinesterase,Hydrolase,XGBoost,2469,624,400,0.892,0.9445,0.9837,1.56,1.56,morgan
+P22303,Acetylcholinesterase,Hydrolase,SVM_RBF,2469,624,400,0.8828,0.9449,0.9839,1.56,1.56,morgan
+P22303,Acetylcholinesterase,Hydrolase,DNN,2469,624,400,0.8924,0.9424,0.9831,1.56,1.56,morgan
+P41143,Delta-type opioid receptor,GPCR,RandomForest,2453,622,620,0.9492,0.9998,0.7433,1.003,1.003,morgan
+P41143,Delta-type opioid receptor,GPCR,XGBoost,2453,622,620,0.8944,0.9996,0.7433,1.003,1.003,morgan
+P41143,Delta-type opioid receptor,GPCR,SVM_RBF,2453,622,620,0.821,0.9994,0.7433,1.003,1.003,morgan
+P41143,Delta-type opioid receptor,GPCR,DNN,2453,622,620,0.9573,0.9999,0.7433,1.003,1.003,morgan
+Q12809,Potassium voltage-gated channel subfamily H member,Ion Channel,RandomForest,2407,605,529,0.9265,0.9852,0.9816,1.144,1.144,morgan
+Q12809,Potassium voltage-gated channel subfamily H member,Ion Channel,XGBoost,2407,605,529,0.9051,0.9781,0.9775,1.144,1.144,morgan
+Q12809,Potassium voltage-gated channel subfamily H member,Ion Channel,SVM_RBF,2407,605,529,0.925,0.9806,0.9672,1.144,1.144,morgan
+Q12809,Potassium voltage-gated channel subfamily H member,Ion Channel,DNN,2407,605,529,0.9537,0.9911,0.9819,1.144,1.144,morgan
+P14902,"Indoleamine 2,3-dioxygenase 1",Oxidoreductase,RandomForest,2357,645,620,0.9655,0.9986,0.9714,1.04,1.04,morgan
+P14902,"Indoleamine 2,3-dioxygenase 1",Oxidoreductase,XGBoost,2357,645,620,0.9489,0.9979,0.9714,1.04,1.04,morgan
+P14902,"Indoleamine 2,3-dioxygenase 1",Oxidoreductase,SVM_RBF,2357,645,620,0.9405,0.9972,0.9714,1.04,1.04,morgan
+P14902,"Indoleamine 2,3-dioxygenase 1",Oxidoreductase,DNN,2357,645,620,0.9619,0.9984,0.9714,1.04,1.04,morgan
+P09619,Platelet-derived growth factor receptor beta,GPCR,RandomForest,2195,557,501,0.9922,0.9992,0.9794,1.112,1.112,morgan
+P09619,Platelet-derived growth factor receptor beta,GPCR,XGBoost,2195,557,501,0.9923,0.9992,0.9794,1.112,1.112,morgan
+P09619,Platelet-derived growth factor receptor beta,GPCR,SVM_RBF,2195,557,501,0.9893,0.9989,0.9794,1.112,1.112,morgan
+P09619,Platelet-derived growth factor receptor beta,GPCR,DNN,2195,557,501,0.992,0.9991,0.9794,1.112,1.112,morgan
+P35354,Prostaglandin G/H synthase 2,Lyase,RandomForest,2169,557,458,0.7574,0.9087,0.8686,0.973,1.081,morgan
+P35354,Prostaglandin G/H synthase 2,Lyase,XGBoost,2169,557,458,0.7424,0.9047,0.885,1.216,1.126,morgan
+P35354,Prostaglandin G/H synthase 2,Lyase,SVM_RBF,2169,557,458,0.7371,0.9146,0.9293,0.973,1.171,morgan
+P35354,Prostaglandin G/H synthase 2,Lyase,DNN,2169,557,458,0.7712,0.9345,0.9714,1.216,1.216,morgan
+P07339,Cathepsin D,Protease,RandomForest,2158,566,77,1.0,1.0,0.9824,7.351,7.351,morgan
+P07339,Cathepsin D,Protease,XGBoost,2158,566,77,1.0,1.0,0.9824,7.351,7.351,morgan
+P07339,Cathepsin D,Protease,SVM_RBF,2158,566,77,1.0,1.0,0.9824,7.351,7.351,morgan
+P07339,Cathepsin D,Protease,DNN,2158,566,77,1.0,1.0,0.9824,7.351,7.351,morgan
+P23975,Sodium-dependent noradrenaline transporter,Ion Channel,RandomForest,2134,544,539,0.9996,1.0,0.8912,1.009,1.009,morgan
+P23975,Sodium-dependent noradrenaline transporter,Ion Channel,XGBoost,2134,544,539,0.9974,1.0,0.8912,1.009,1.009,morgan
+P23975,Sodium-dependent noradrenaline transporter,Ion Channel,SVM_RBF,2134,544,539,1.0,1.0,0.8912,1.009,1.009,morgan
+P23975,Sodium-dependent noradrenaline transporter,Ion Channel,DNN,2134,544,539,0.9996,1.0,0.8912,1.009,1.009,morgan
+P00519,Tyrosine-protein kinase ABL1,Kinase,RandomForest,2023,509,495,0.9866,0.9996,0.9539,1.028,1.028,morgan
+P00519,Tyrosine-protein kinase ABL1,Kinase,XGBoost,2023,509,495,0.9798,0.9994,0.9539,1.028,1.028,morgan
+P00519,Tyrosine-protein kinase ABL1,Kinase,SVM_RBF,2023,509,495,0.9934,0.9998,0.9539,1.028,1.028,morgan
+P00519,Tyrosine-protein kinase ABL1,Kinase,DNN,2023,509,495,0.9802,0.9994,0.9539,1.028,1.028,morgan
+P08246,Neutrophil elastase,Protease,RandomForest,1963,533,531,0.9501,0.9998,0.7421,1.004,1.004,morgan
+P08246,Neutrophil elastase,Protease,XGBoost,1963,533,531,0.9689,0.9999,0.7421,1.004,1.004,morgan
+P08246,Neutrophil elastase,Protease,SVM_RBF,1963,533,531,0.904,0.9996,0.7421,1.004,1.004,morgan
+P08246,Neutrophil elastase,Protease,DNN,1963,533,531,0.8955,0.9996,0.7421,1.004,1.004,morgan
+P45452,Collagenase 3,Structural,RandomForest,1931,485,478,0.9922,0.9999,0.9183,1.015,1.015,morgan
+P45452,Collagenase 3,Structural,XGBoost,1931,485,478,0.9937,0.9999,0.9183,1.015,1.015,morgan
+P45452,Collagenase 3,Structural,SVM_RBF,1931,485,478,0.9635,0.9995,0.9183,1.015,1.015,morgan
+P45452,Collagenase 3,Structural,DNN,1931,485,478,0.9471,0.9992,0.9183,1.015,1.015,morgan
+P00797,Renin,Protease,RandomForest,1818,486,469,0.9991,1.0,0.9594,1.036,1.036,morgan
+P00797,Renin,Protease,XGBoost,1818,486,469,0.9991,1.0,0.9594,1.036,1.036,morgan
+P00797,Renin,Protease,SVM_RBF,1818,486,469,0.9843,0.9994,0.9594,1.036,1.036,morgan
+P00797,Renin,Protease,DNN,1818,486,469,0.9967,0.9999,0.9594,1.036,1.036,morgan
+O14757,Serine/threonine-protein kinase Chk1,Kinase,RandomForest,1816,454,424,1.0,1.0,0.9702,1.071,1.071,morgan
+O14757,Serine/threonine-protein kinase Chk1,Kinase,XGBoost,1816,454,424,1.0,1.0,0.9702,1.071,1.071,morgan
+O14757,Serine/threonine-protein kinase Chk1,Kinase,SVM_RBF,1816,454,424,1.0,1.0,0.9702,1.071,1.071,morgan
+O14757,Serine/threonine-protein kinase Chk1,Kinase,DNN,1816,454,424,1.0,1.0,0.9702,1.071,1.071,morgan
+O15379,Histone deacetylase 3,Epigenetic,RandomForest,1799,450,439,0.9783,0.9994,0.943,1.025,1.025,morgan
+O15379,Histone deacetylase 3,Epigenetic,XGBoost,1799,450,439,0.9814,0.9995,0.943,1.025,1.025,morgan
+O15379,Histone deacetylase 3,Epigenetic,SVM_RBF,1799,450,439,0.8352,0.9939,0.9421,1.025,1.025,morgan
+O15379,Histone deacetylase 3,Epigenetic,DNN,1799,450,439,0.9555,0.9988,0.943,1.025,1.025,morgan
+P14780,Matrix metalloproteinase-9,Protease,RandomForest,1783,449,408,0.866,0.985,0.9736,1.1,1.1,morgan
+P14780,Matrix metalloproteinase-9,Protease,XGBoost,1783,449,408,0.8569,0.9834,0.9736,1.1,1.1,morgan
+P14780,Matrix metalloproteinase-9,Protease,SVM_RBF,1783,449,408,0.8227,0.9777,0.9726,1.1,1.1,morgan
+P14780,Matrix metalloproteinase-9,Protease,DNN,1783,449,408,0.8081,0.9767,0.9729,1.1,1.1,morgan
+P41594,Metabotropic glutamate receptor 5,GPCR,RandomForest,1773,444,438,0.9045,0.9986,0.9056,1.014,1.014,morgan
+P41594,Metabotropic glutamate receptor 5,GPCR,XGBoost,1773,444,438,0.7614,0.9958,0.9056,1.014,1.014,morgan
+P41594,Metabotropic glutamate receptor 5,GPCR,SVM_RBF,1773,444,438,0.8436,0.9977,0.9056,1.014,1.014,morgan
+P41594,Metabotropic glutamate receptor 5,GPCR,DNN,1773,444,438,0.7938,0.9968,0.9056,1.014,1.014,morgan
+P37231,Peroxisome proliferator-activated receptor gamma,GPCR,RandomForest,1719,446,440,0.9606,0.9995,0.9057,1.014,1.014,morgan
+P37231,Peroxisome proliferator-activated receptor gamma,GPCR,XGBoost,1719,446,440,0.8962,0.9982,0.9057,1.014,1.014,morgan
+P37231,Peroxisome proliferator-activated receptor gamma,GPCR,SVM_RBF,1719,446,440,0.9117,0.9987,0.9057,1.014,1.014,morgan
+P37231,Peroxisome proliferator-activated receptor gamma,GPCR,DNN,1719,446,440,0.9273,0.9989,0.9057,1.014,1.014,morgan
+Q01959,Sodium-dependent dopamine transporter,GPCR,RandomForest,1690,429,423,1.0,1.0,0.9052,1.014,1.014,morgan
+Q01959,Sodium-dependent dopamine transporter,GPCR,XGBoost,1690,429,423,0.9996,1.0,0.9052,1.014,1.014,morgan
+Q01959,Sodium-dependent dopamine transporter,GPCR,SVM_RBF,1690,429,423,1.0,1.0,0.9052,1.014,1.014,morgan
+Q01959,Sodium-dependent dopamine transporter,GPCR,DNN,1690,429,423,0.9996,1.0,0.9052,1.014,1.014,morgan
+Q92769,Histone deacetylase 2,Epigenetic,RandomForest,1665,423,397,0.9672,0.9973,0.9668,1.065,1.065,morgan
+Q92769,Histone deacetylase 2,Epigenetic,XGBoost,1665,423,397,0.9532,0.9963,0.9668,1.065,1.065,morgan
+Q92769,Histone deacetylase 2,Epigenetic,SVM_RBF,1665,423,397,0.9303,0.9941,0.9668,1.065,1.065,morgan
+Q92769,Histone deacetylase 2,Epigenetic,DNN,1665,423,397,0.9633,0.9974,0.9668,1.065,1.065,morgan
+Q00987,E3 ubiquitin-protein ligase Mdm2,Transferase,RandomForest,1656,422,409,1.0,1.0,0.9489,1.032,1.032,morgan
+Q00987,E3 ubiquitin-protein ligase Mdm2,Transferase,XGBoost,1656,422,409,1.0,1.0,0.9489,1.032,1.032,morgan
+Q00987,E3 ubiquitin-protein ligase Mdm2,Transferase,SVM_RBF,1656,422,409,0.9994,1.0,0.9489,1.032,1.032,morgan
+Q00987,E3 ubiquitin-protein ligase Mdm2,Transferase,DNN,1656,422,409,0.9998,1.0,0.9489,1.032,1.032,morgan
+Q02127,"Dihydroorotate dehydrogenase (quinone), mitochondr",Oxidoreductase,RandomForest,1655,413,359,0.9966,0.9995,0.9741,1.15,1.15,morgan
+Q02127,"Dihydroorotate dehydrogenase (quinone), mitochondr",Oxidoreductase,XGBoost,1655,413,359,0.9969,0.9995,0.9741,1.15,1.15,morgan
+Q02127,"Dihydroorotate dehydrogenase (quinone), mitochondr",Oxidoreductase,SVM_RBF,1655,413,359,0.9878,0.9978,0.9741,1.15,1.15,morgan
+Q02127,"Dihydroorotate dehydrogenase (quinone), mitochondr",Oxidoreductase,DNN,1655,413,359,0.978,0.9942,0.9725,1.15,1.15,morgan
+P10275,Androgen receptor,GPCR,RandomForest,1645,416,412,0.8799,0.9987,0.8637,1.01,1.01,morgan
+P10275,Androgen receptor,GPCR,XGBoost,1645,416,412,0.8098,0.9978,0.8637,1.01,1.01,morgan
+P10275,Androgen receptor,GPCR,SVM_RBF,1645,416,412,0.6754,0.9959,0.8636,1.01,1.01,morgan
+P10275,Androgen receptor,GPCR,DNN,1645,416,412,0.8404,0.9982,0.8637,1.01,1.01,morgan
+Q9BY41,Histone deacetylase 8,Epigenetic,RandomForest,1641,413,375,0.986,0.9983,0.9714,1.101,1.101,morgan
+Q9BY41,Histone deacetylase 8,Epigenetic,XGBoost,1641,413,375,0.9876,0.9986,0.9714,1.101,1.101,morgan
+Q9BY41,Histone deacetylase 8,Epigenetic,SVM_RBF,1641,413,375,0.9761,0.9972,0.9714,1.101,1.101,morgan
+Q9BY41,Histone deacetylase 8,Epigenetic,DNN,1641,413,375,0.9627,0.9959,0.9714,1.101,1.101,morgan
+Q96GD4,Aurora kinase B,Kinase,RandomForest,1633,412,382,0.8313,0.9845,0.9686,1.079,1.079,morgan
+Q96GD4,Aurora kinase B,Kinase,XGBoost,1633,412,382,0.522,0.9137,0.8153,1.079,1.079,morgan
+Q96GD4,Aurora kinase B,Kinase,SVM_RBF,1633,412,382,0.9442,0.9953,0.9686,1.079,1.079,morgan
+Q96GD4,Aurora kinase B,Kinase,DNN,1633,412,382,0.7945,0.978,0.9683,1.079,1.079,morgan
+P25774,Cathepsin S,Protease,RandomForest,1596,412,404,0.9749,0.9995,0.9252,1.02,1.02,morgan
+P25774,Cathepsin S,Protease,XGBoost,1596,412,404,0.903,0.9978,0.9252,1.02,1.02,morgan
+P25774,Cathepsin S,Protease,SVM_RBF,1596,412,404,0.9127,0.9981,0.9252,1.02,1.02,morgan
+P25774,Cathepsin S,Protease,DNN,1596,412,404,0.9752,0.9995,0.9252,1.02,1.02,morgan
+P06493,Cyclin-dependent kinase/G2/mitotic-specific cyclin,Kinase,RandomForest,1572,392,342,0.9656,0.9951,0.9726,1.146,1.146,morgan
+P06493,Cyclin-dependent kinase/G2/mitotic-specific cyclin,Kinase,XGBoost,1572,392,342,0.9609,0.9943,0.9726,1.146,1.146,morgan
+P06493,Cyclin-dependent kinase/G2/mitotic-specific cyclin,Kinase,SVM_RBF,1572,392,342,0.9466,0.9918,0.9726,1.146,1.146,morgan
+P06493,Cyclin-dependent kinase/G2/mitotic-specific cyclin,Kinase,DNN,1572,392,342,0.9323,0.9892,0.9726,1.146,1.146,morgan
+P25103,Substance-P receptor,GPCR,RandomForest,1417,360,345,0.8089,0.9912,0.9513,1.043,1.043,morgan
+P25103,Substance-P receptor,GPCR,XGBoost,1417,360,345,0.7757,0.9883,0.9513,1.043,1.043,morgan
+P25103,Substance-P receptor,GPCR,SVM_RBF,1417,360,345,0.8356,0.9926,0.9513,1.043,1.043,morgan
+P25103,Substance-P receptor,GPCR,DNN,1417,360,345,0.1277,0.9082,0.6447,1.043,0.754,morgan
+P06276,Cholinesterase,Hydrolase,RandomForest,1361,352,232,0.9677,0.9856,0.9715,1.517,1.517,morgan
+P06276,Cholinesterase,Hydrolase,XGBoost,1361,352,232,0.9518,0.9768,0.9705,1.517,1.517,morgan
+P06276,Cholinesterase,Hydrolase,SVM_RBF,1361,352,232,0.9671,0.9853,0.9718,1.517,1.517,morgan
+P06276,Cholinesterase,Hydrolase,DNN,1361,352,232,0.9722,0.9878,0.9718,1.517,1.517,morgan
+Q96RI1,Bile acid receptor,GPCR,RandomForest,1335,354,326,0.9608,0.9963,0.9648,1.086,1.086,morgan
+Q96RI1,Bile acid receptor,GPCR,XGBoost,1335,354,326,0.9433,0.9947,0.9648,1.086,1.086,morgan
+Q96RI1,Bile acid receptor,GPCR,SVM_RBF,1335,354,326,0.9345,0.9929,0.9648,1.086,1.086,morgan
+Q96RI1,Bile acid receptor,GPCR,DNN,1335,354,326,0.8521,0.9852,0.9647,1.086,1.086,morgan
+P01375,Tumor necrosis factor,Immune,RandomForest,1238,322,298,1.0,1.0,0.9603,1.081,1.081,morgan
+P01375,Tumor necrosis factor,Immune,XGBoost,1238,322,298,1.0,1.0,0.9603,1.081,1.081,morgan
+P01375,Tumor necrosis factor,Immune,SVM_RBF,1238,322,298,1.0,1.0,0.9603,1.081,1.081,morgan
+P01375,Tumor necrosis factor,Immune,DNN,1238,322,298,1.0,1.0,0.9603,1.081,1.081,morgan
+P43235,Cathepsin K,Protease,RandomForest,1204,307,294,0.8679,0.9899,0.9399,1.044,1.044,morgan
+P43235,Cathepsin K,Protease,XGBoost,1204,307,294,0.9434,0.9972,0.9436,1.044,1.044,morgan
+P43235,Cathepsin K,Protease,SVM_RBF,1204,307,294,0.8972,0.9952,0.9436,1.044,1.044,morgan
+P43235,Cathepsin K,Protease,DNN,1204,307,294,0.9322,0.9967,0.9436,1.044,1.044,morgan
+O76074,"cGMP-specific 3',5'-cyclic phosphodiesterase",Phosphodiesterase,RandomForest,1150,288,268,1.0,1.0,0.9543,1.075,1.075,morgan
+O76074,"cGMP-specific 3',5'-cyclic phosphodiesterase",Phosphodiesterase,XGBoost,1150,288,268,1.0,1.0,0.9543,1.075,1.075,morgan
+O76074,"cGMP-specific 3',5'-cyclic phosphodiesterase",Phosphodiesterase,SVM_RBF,1150,288,268,0.9983,0.9999,0.9543,1.075,1.075,morgan
+O76074,"cGMP-specific 3',5'-cyclic phosphodiesterase",Phosphodiesterase,DNN,1150,288,268,1.0,1.0,0.9543,1.075,1.075,morgan
+P07550,Beta-2 adrenergic receptor,GPCR,RandomForest,1132,287,265,0.8172,0.9836,0.9561,1.083,1.083,morgan
+P07550,Beta-2 adrenergic receptor,GPCR,XGBoost,1132,287,265,0.865,0.9881,0.9561,1.083,1.083,morgan
+P07550,Beta-2 adrenergic receptor,GPCR,SVM_RBF,1132,287,265,0.8033,0.9827,0.9561,1.083,1.083,morgan
+P07550,Beta-2 adrenergic receptor,GPCR,DNN,1132,287,265,0.824,0.9846,0.9561,1.083,1.083,morgan
+P18031,Tyrosine-protein phosphatase non-receptor type 1 [,GPCR,RandomForest,1110,297,170,0.9985,0.9991,0.9667,1.747,1.747,morgan
+P18031,Tyrosine-protein phosphatase non-receptor type 1 [,GPCR,XGBoost,1110,297,170,0.998,0.9986,0.9667,1.747,1.747,morgan
+P18031,Tyrosine-protein phosphatase non-receptor type 1 [,GPCR,SVM_RBF,1110,297,170,0.9934,0.9955,0.9667,1.747,1.747,morgan
+P18031,Tyrosine-protein phosphatase non-receptor type 1 [,GPCR,DNN,1110,297,170,0.9888,0.9935,0.9667,1.747,1.747,morgan
+P08684,Cytochrome P450 3A4,Oxidoreductase,RandomForest,1108,278,221,0.9771,0.9939,0.9639,1.258,1.258,morgan
+P08684,Cytochrome P450 3A4,Oxidoreductase,XGBoost,1108,278,221,0.9829,0.9956,0.9639,1.258,1.258,morgan
+P08684,Cytochrome P450 3A4,Oxidoreductase,SVM_RBF,1108,278,221,0.9822,0.9956,0.9639,1.258,1.258,morgan
+P08684,Cytochrome P450 3A4,Oxidoreductase,DNN,1108,278,221,0.9691,0.9923,0.9639,1.258,1.258,morgan
+P11511,Aromatase,Oxidoreductase,RandomForest,1089,280,277,0.9362,0.9993,0.817,1.011,1.011,morgan
+P11511,Aromatase,Oxidoreductase,XGBoost,1089,280,277,0.9807,0.9998,0.817,1.011,1.011,morgan
+P11511,Aromatase,Oxidoreductase,SVM_RBF,1089,280,277,0.8845,0.9987,0.817,1.011,1.011,morgan
+P11511,Aromatase,Oxidoreductase,DNN,1089,280,277,0.1974,0.983,0.7976,1.011,1.011,morgan
+P43166,Carbonic anhydrase 7,Lyase,RandomForest,1061,271,233,0.873,0.9798,0.9612,1.163,1.163,morgan
+P43166,Carbonic anhydrase 7,Lyase,XGBoost,1061,271,233,0.7216,0.9497,0.9611,1.163,1.163,morgan
+P43166,Carbonic anhydrase 7,Lyase,SVM_RBF,1061,271,233,0.8215,0.9695,0.9612,1.163,1.163,morgan
+P43166,Carbonic anhydrase 7,Lyase,DNN,1061,271,233,0.3766,0.7939,0.5387,0.582,0.537,morgan
+Q96P20,"NACHT, LRR and PYD domains-containing protein 3",Immune,RandomForest,1052,268,240,0.9908,0.999,0.9579,1.117,1.117,morgan
+Q96P20,"NACHT, LRR and PYD domains-containing protein 3",Immune,XGBoost,1052,268,240,0.988,0.9987,0.9579,1.117,1.117,morgan
+Q96P20,"NACHT, LRR and PYD domains-containing protein 3",Immune,SVM_RBF,1052,268,240,0.9802,0.9979,0.9579,1.117,1.117,morgan
+Q96P20,"NACHT, LRR and PYD domains-containing protein 3",Immune,DNN,1052,268,240,0.9932,0.9992,0.9579,1.117,1.117,morgan
+P07711,Procathepsin L,Protease,RandomForest,1049,270,265,0.9932,0.9999,0.8818,1.019,1.019,morgan
+P07711,Procathepsin L,Protease,XGBoost,1049,270,265,0.8709,0.9965,0.8818,1.019,1.019,morgan
+P07711,Procathepsin L,Protease,SVM_RBF,1049,270,265,0.9653,0.9993,0.8818,1.019,1.019,morgan
+P07711,Procathepsin L,Protease,DNN,1049,270,265,0.9932,0.9999,0.8818,1.019,1.019,morgan
+P05106,Integrin alpha-V/beta-3,Structural,RandomForest,1044,266,241,0.9798,0.9979,0.9562,1.104,1.104,morgan
+P05106,Integrin alpha-V/beta-3,Structural,XGBoost,1044,266,241,0.9447,0.9939,0.9562,1.104,1.104,morgan
+P05106,Integrin alpha-V/beta-3,Structural,SVM_RBF,1044,266,241,0.9693,0.9968,0.9562,1.104,1.104,morgan
+P05106,Integrin alpha-V/beta-3,Structural,DNN,1044,266,241,0.9416,0.9938,0.9562,1.104,1.104,morgan
+P07477,Serine protease 1,Protease,RandomForest,1038,262,251,0.996,0.9998,0.9337,1.044,1.044,morgan
+P07477,Serine protease 1,Protease,XGBoost,1038,262,251,0.9913,0.9996,0.9337,1.044,1.044,morgan
+P07477,Serine protease 1,Protease,SVM_RBF,1038,262,251,0.9978,0.9999,0.9337,1.044,1.044,morgan
+P07477,Serine protease 1,Protease,DNN,1038,262,251,0.9967,0.9999,0.9337,1.044,1.044,morgan
+P07900,Heat shock protein HSP 90-alpha,Chaperone,RandomForest,1031,261,228,0.979,0.9972,0.9589,1.145,1.145,morgan
+P07900,Heat shock protein HSP 90-alpha,Chaperone,XGBoost,1031,261,228,0.9831,0.9976,0.9589,1.145,1.145,morgan
+P07900,Heat shock protein HSP 90-alpha,Chaperone,SVM_RBF,1031,261,228,0.9532,0.9935,0.9589,1.145,1.145,morgan
+P07900,Heat shock protein HSP 90-alpha,Chaperone,DNN,1031,261,228,0.9843,0.9978,0.9589,1.145,1.145,morgan
+P14867,Gamma-aminobutyric acid receptor subunit alpha-1 [,GPCR,RandomForest,973,246,222,0.9953,0.9995,0.9533,1.108,1.108,morgan
+P14867,Gamma-aminobutyric acid receptor subunit alpha-1 [,GPCR,XGBoost,973,246,222,0.9957,0.9996,0.9533,1.108,1.108,morgan
+P14867,Gamma-aminobutyric acid receptor subunit alpha-1 [,GPCR,SVM_RBF,973,246,222,0.9818,0.998,0.9533,1.108,1.108,morgan
+P14867,Gamma-aminobutyric acid receptor subunit alpha-1 [,GPCR,DNN,973,246,222,0.9942,0.9994,0.9533,1.108,1.108,morgan
+P15538,"Cytochrome P450 11B1, mitochondrial",Oxidoreductase,RandomForest,927,234,200,1.0,1.0,0.9554,1.17,1.17,morgan
+P15538,"Cytochrome P450 11B1, mitochondrial",Oxidoreductase,XGBoost,927,234,200,1.0,1.0,0.9554,1.17,1.17,morgan
+P15538,"Cytochrome P450 11B1, mitochondrial",Oxidoreductase,SVM_RBF,927,234,200,1.0,1.0,0.9554,1.17,1.17,morgan
+P15538,"Cytochrome P450 11B1, mitochondrial",Oxidoreductase,DNN,927,234,200,1.0,1.0,0.9554,1.17,1.17,morgan
+P08588,Beta-1 adrenergic receptor,GPCR,RandomForest,906,234,214,0.9979,0.9998,0.9486,1.093,1.093,morgan
+P08588,Beta-1 adrenergic receptor,GPCR,XGBoost,906,234,214,0.9939,0.9995,0.9486,1.093,1.093,morgan
+P08588,Beta-1 adrenergic receptor,GPCR,SVM_RBF,906,234,214,0.9984,0.9998,0.9486,1.093,1.093,morgan
+P08588,Beta-1 adrenergic receptor,GPCR,DNN,906,234,214,0.9984,0.9999,0.9486,1.093,1.093,morgan
+P25100,Alpha-1D adrenergic receptor,GPCR,RandomForest,897,242,232,0.9504,0.9978,0.9275,1.043,1.043,morgan
+P25100,Alpha-1D adrenergic receptor,GPCR,XGBoost,897,242,232,0.9737,0.9988,0.9275,1.043,1.043,morgan
+P25100,Alpha-1D adrenergic receptor,GPCR,SVM_RBF,897,242,232,0.9789,0.9991,0.9275,1.043,1.043,morgan
+P25100,Alpha-1D adrenergic receptor,GPCR,DNN,897,242,232,0.9543,0.998,0.9275,1.043,1.043,morgan
+P09917,Polyunsaturated fatty acid 5-lipoxygenase,Oxidoreductase,RandomForest,896,225,222,0.982,0.9998,0.8129,1.014,1.014,morgan
+P09917,Polyunsaturated fatty acid 5-lipoxygenase,Oxidoreductase,XGBoost,896,225,222,0.8589,0.9976,0.8129,1.014,1.014,morgan
+P09917,Polyunsaturated fatty acid 5-lipoxygenase,Oxidoreductase,SVM_RBF,896,225,222,0.994,0.9999,0.8129,1.014,1.014,morgan
+P09917,Polyunsaturated fatty acid 5-lipoxygenase,Oxidoreductase,DNN,896,225,222,0.9985,1.0,0.8129,1.014,1.014,morgan
+Q13546,Receptor-interacting serine/threonine-protein kina,Kinase,RandomForest,865,232,211,1.0,1.0,0.9492,1.1,1.1,morgan
+Q13546,Receptor-interacting serine/threonine-protein kina,Kinase,XGBoost,865,232,211,1.0,1.0,0.9492,1.1,1.1,morgan
+Q13546,Receptor-interacting serine/threonine-protein kina,Kinase,SVM_RBF,865,232,211,0.9998,1.0,0.9492,1.1,1.1,morgan
+Q13546,Receptor-interacting serine/threonine-protein kina,Kinase,DNN,865,232,211,1.0,1.0,0.9492,1.1,1.1,morgan
+P45983,Mitogen-activated protein kinase 8,Kinase,RandomForest,872,223,221,0.9072,0.9991,0.731,1.009,1.009,morgan
+P45983,Mitogen-activated protein kinase 8,Kinase,XGBoost,872,223,221,0.8824,0.9988,0.731,1.009,1.009,morgan
+P45983,Mitogen-activated protein kinase 8,Kinase,SVM_RBF,872,223,221,0.81,0.9981,0.731,1.009,1.009,morgan
+P45983,Mitogen-activated protein kinase 8,Kinase,DNN,872,223,221,0.8665,0.9987,0.731,1.009,1.009,morgan
+P22894,Neutrophil collagenase,Structural,RandomForest,835,234,214,0.9185,0.9925,0.9486,1.093,1.093,morgan
+P22894,Neutrophil collagenase,Structural,XGBoost,835,234,214,0.94,0.9946,0.9486,1.093,1.093,morgan
+P22894,Neutrophil collagenase,Structural,SVM_RBF,835,234,214,0.9117,0.9911,0.9486,1.093,1.093,morgan
+P22894,Neutrophil collagenase,Structural,DNN,835,234,214,0.8589,0.9861,0.9486,1.093,1.093,morgan
+P17948,Vascular endothelial growth factor receptor 1,GPCR,RandomForest,812,209,182,1.0,1.0,0.9491,1.148,1.148,morgan
+P17948,Vascular endothelial growth factor receptor 1,GPCR,XGBoost,812,209,182,1.0,1.0,0.9491,1.148,1.148,morgan
+P17948,Vascular endothelial growth factor receptor 1,GPCR,SVM_RBF,812,209,182,1.0,1.0,0.9491,1.148,1.148,morgan
+P17948,Vascular endothelial growth factor receptor 1,GPCR,DNN,812,209,182,1.0,1.0,0.9491,1.148,1.148,morgan
+Q13574,Diacylglycerol kinase zeta,Kinase,RandomForest,726,242,239,0.8815,0.9983,0.8144,1.013,1.013,morgan
+Q13574,Diacylglycerol kinase zeta,Kinase,XGBoost,726,242,239,0.4686,0.9905,0.8141,1.013,1.013,morgan
+Q13574,Diacylglycerol kinase zeta,Kinase,SVM_RBF,726,242,239,0.9275,0.9991,0.8144,1.013,1.013,morgan
+Q13574,Diacylglycerol kinase zeta,Kinase,DNN,726,242,239,0.7657,0.996,0.8144,1.013,1.013,morgan
+P22748,Carbonic anhydrase 4,Lyase,RandomForest,768,199,170,0.9623,0.9941,0.9478,1.171,1.171,morgan
+P22748,Carbonic anhydrase 4,Lyase,XGBoost,768,199,170,0.9723,0.9956,0.9478,1.171,1.171,morgan
+P22748,Carbonic anhydrase 4,Lyase,SVM_RBF,768,199,170,0.954,0.9927,0.9478,1.171,1.171,morgan
+P22748,Carbonic anhydrase 4,Lyase,DNN,768,199,170,0.8824,0.9772,0.9477,1.171,1.171,morgan
+P17252,Protein kinase C alpha type,Kinase,RandomForest,728,233,190,1.0,1.0,0.9566,1.226,1.226,morgan
+P17252,Protein kinase C alpha type,Kinase,XGBoost,728,233,190,1.0,1.0,0.9566,1.226,1.226,morgan
+P17252,Protein kinase C alpha type,Kinase,SVM_RBF,728,233,190,1.0,1.0,0.9566,1.226,1.226,morgan
+P17252,Protein kinase C alpha type,Kinase,DNN,728,233,190,1.0,1.0,0.9566,1.226,1.226,morgan
+Q15078,Cyclin-dependent kinase 5 activator 1 [99-307],Kinase,RandomForest,763,194,167,0.9261,0.9882,0.946,1.162,1.162,morgan
+Q15078,Cyclin-dependent kinase 5 activator 1 [99-307],Kinase,XGBoost,763,194,167,0.9217,0.9873,0.946,1.162,1.162,morgan
+Q15078,Cyclin-dependent kinase 5 activator 1 [99-307],Kinase,SVM_RBF,763,194,167,0.8967,0.9835,0.946,1.162,1.162,morgan
+Q15078,Cyclin-dependent kinase 5 activator 1 [99-307],Kinase,DNN,763,194,167,0.8397,0.9721,0.946,1.162,1.162,morgan
+Q9H244,P2Y purinoceptor 12,GPCR,RandomForest,749,207,203,0.9156,0.9982,0.8517,1.02,1.02,morgan
+Q9H244,P2Y purinoceptor 12,GPCR,XGBoost,749,207,203,0.8387,0.9959,0.8517,1.02,1.02,morgan
+Q9H244,P2Y purinoceptor 12,GPCR,SVM_RBF,749,207,203,0.9557,0.9991,0.8517,1.02,1.02,morgan
+Q9H244,P2Y purinoceptor 12,GPCR,DNN,749,207,203,0.8929,0.9975,0.8517,1.02,1.02,morgan
+P49354,Protein farnesyltransferase/geranylgeranyltransfer,Transferase,RandomForest,743,200,187,0.9358,0.9954,0.9324,1.07,1.07,morgan
+P49354,Protein farnesyltransferase/geranylgeranyltransfer,Transferase,XGBoost,743,200,187,0.877,0.9914,0.9324,1.07,1.07,morgan
+P49354,Protein farnesyltransferase/geranylgeranyltransfer,Transferase,SVM_RBF,743,200,187,0.9362,0.9954,0.9324,1.07,1.07,morgan
+P49354,Protein farnesyltransferase/geranylgeranyltransfer,Transferase,DNN,743,200,187,0.9227,0.9945,0.9324,1.07,1.07,morgan
+P08238,Heat shock protein HSP 90-beta,Chaperone,RandomForest,743,190,149,0.927,0.9787,0.9476,1.275,1.275,morgan
+P08238,Heat shock protein HSP 90-beta,Chaperone,XGBoost,743,190,149,0.893,0.9709,0.9476,1.275,1.275,morgan
+P08238,Heat shock protein HSP 90-beta,Chaperone,SVM_RBF,743,190,149,0.9278,0.9783,0.9476,1.275,1.275,morgan
+P08238,Heat shock protein HSP 90-beta,Chaperone,DNN,743,190,149,0.9257,0.9785,0.9476,1.275,1.275,morgan
+Q16853,Amine oxidase [copper-containing] 3,Oxidoreductase,RandomForest,733,196,166,0.5386,0.8951,0.9389,1.181,1.181,morgan
+Q16853,Amine oxidase [copper-containing] 3,Oxidoreductase,XGBoost,733,196,166,0.3747,0.8143,0.7732,1.181,1.181,morgan
+Q16853,Amine oxidase [copper-containing] 3,Oxidoreductase,SVM_RBF,733,196,166,0.4906,0.8618,0.8721,1.181,1.05,morgan
+Q16853,Amine oxidase [copper-containing] 3,Oxidoreductase,DNN,733,196,166,0.7267,0.9465,0.9469,1.181,1.181,morgan
+Q6V1X1,Dipeptidyl peptidase 8,Protease,RandomForest,730,196,47,0.7894,0.6683,0.7944,4.17,3.707,morgan
+Q6V1X1,Dipeptidyl peptidase 8,Protease,XGBoost,730,196,47,0.7921,0.6712,0.807,4.17,4.17,morgan
+Q6V1X1,Dipeptidyl peptidase 8,Protease,SVM_RBF,730,196,47,0.7754,0.6192,0.7301,0.0,3.243,morgan
+Q6V1X1,Dipeptidyl peptidase 8,Protease,DNN,730,196,47,0.68,0.6007,0.7481,4.17,3.243,morgan
+P49137,MAP kinase-activated protein kinase 2,Kinase,RandomForest,730,187,180,0.9984,0.9999,0.9003,1.039,1.039,morgan
+P49137,MAP kinase-activated protein kinase 2,Kinase,XGBoost,730,187,180,0.9929,0.9997,0.9003,1.039,1.039,morgan
+P49137,MAP kinase-activated protein kinase 2,Kinase,SVM_RBF,730,187,180,0.8968,0.9958,0.9003,1.039,1.039,morgan
+P49137,MAP kinase-activated protein kinase 2,Kinase,DNN,730,187,180,0.9405,0.9977,0.9003,1.039,1.039,morgan
+P12931,Proto-oncogene tyrosine-protein kinase Src,Kinase,RandomForest,725,185,169,0.9848,0.9985,0.9355,1.095,1.095,morgan
+P12931,Proto-oncogene tyrosine-protein kinase Src,Kinase,XGBoost,725,185,169,0.9721,0.9972,0.9355,1.095,1.095,morgan
+P12931,Proto-oncogene tyrosine-protein kinase Src,Kinase,SVM_RBF,725,185,169,0.9072,0.9901,0.9355,1.095,1.095,morgan
+P12931,Proto-oncogene tyrosine-protein kinase Src,Kinase,DNN,725,185,169,0.9822,0.9983,0.9355,1.095,1.095,morgan
+P07858,Cathepsin B,Protease,RandomForest,697,185,124,0.9792,0.9876,0.9465,1.492,1.492,morgan
+P07858,Cathepsin B,Protease,XGBoost,697,185,124,0.9824,0.99,0.9467,1.492,1.492,morgan
+P07858,Cathepsin B,Protease,SVM_RBF,697,185,124,0.9652,0.9772,0.9416,1.492,1.492,morgan
+P07858,Cathepsin B,Protease,DNN,697,185,124,0.956,0.9756,0.9464,1.492,1.492,morgan
+P42574,Caspase-3,Protease,RandomForest,672,176,154,0.9299,0.9887,0.9393,1.143,1.143,morgan
+P42574,Caspase-3,Protease,XGBoost,672,176,154,0.8598,0.977,0.9392,1.143,1.143,morgan
+P42574,Caspase-3,Protease,SVM_RBF,672,176,154,0.7122,0.9447,0.9335,1.143,1.143,morgan
+P42574,Caspase-3,Protease,DNN,672,176,154,0.5661,0.9095,0.9315,1.143,1.143,morgan
+Q86TI2,Dipeptidyl peptidase 9,Protease,RandomForest,674,170,43,0.7945,0.7468,0.8882,3.953,3.953,morgan
+Q86TI2,Dipeptidyl peptidase 9,Protease,XGBoost,674,170,43,0.8717,0.8175,0.9132,3.953,3.953,morgan
+Q86TI2,Dipeptidyl peptidase 9,Protease,SVM_RBF,674,170,43,0.8164,0.7556,0.8757,3.953,3.953,morgan
+Q86TI2,Dipeptidyl peptidase 9,Protease,DNN,674,170,43,0.6791,0.7202,0.9047,3.953,3.953,morgan
+Q9GZT9,Egl nine homolog 1,Oxidoreductase,RandomForest,667,173,139,0.9594,0.9905,0.9422,1.245,1.245,morgan
+Q9GZT9,Egl nine homolog 1,Oxidoreductase,XGBoost,667,173,139,0.9847,0.9968,0.9422,1.245,1.245,morgan
+Q9GZT9,Egl nine homolog 1,Oxidoreductase,SVM_RBF,667,173,139,0.8564,0.9683,0.9422,1.245,1.245,morgan
+Q9GZT9,Egl nine homolog 1,Oxidoreductase,DNN,667,173,139,0.9312,0.9843,0.9422,1.245,1.245,morgan
+P09960,Leukotriene A-4 hydrolase,Hydrolase,RandomForest,663,170,143,0.9567,0.9918,0.9398,1.189,1.189,morgan
+P09960,Leukotriene A-4 hydrolase,Hydrolase,XGBoost,663,170,143,0.9311,0.9866,0.9398,1.189,1.189,morgan
+P09960,Leukotriene A-4 hydrolase,Hydrolase,SVM_RBF,663,170,143,0.9169,0.9836,0.9398,1.189,1.189,morgan
+P09960,Leukotriene A-4 hydrolase,Hydrolase,DNN,663,170,143,0.9008,0.9812,0.9398,1.189,1.189,morgan
+P05177,Cytochrome P450 1A2,Oxidoreductase,RandomForest,635,159,149,0.9906,0.9994,0.914,1.067,1.067,morgan
+P05177,Cytochrome P450 1A2,Oxidoreductase,XGBoost,635,159,149,0.9732,0.9982,0.914,1.067,1.067,morgan
+P05177,Cytochrome P450 1A2,Oxidoreductase,SVM_RBF,635,159,149,0.9423,0.9955,0.914,1.067,1.067,morgan
+P05177,Cytochrome P450 1A2,Oxidoreductase,DNN,635,159,149,0.9832,0.9988,0.914,1.067,1.067,morgan
+P00749,Urokinase-type plasminogen activator,Kinase,RandomForest,627,166,90,0.9949,0.9967,0.941,1.844,1.844,morgan
+P00749,Urokinase-type plasminogen activator,Kinase,XGBoost,627,166,90,0.9934,0.9957,0.941,1.844,1.844,morgan
+P00749,Urokinase-type plasminogen activator,Kinase,SVM_RBF,627,166,90,0.9842,0.986,0.9408,1.844,1.844,morgan
+P00749,Urokinase-type plasminogen activator,Kinase,DNN,627,166,90,0.9923,0.9935,0.9409,1.844,1.844,morgan
+P28074,Proteasome subunit beta type-5,Proteasome,RandomForest,615,155,149,0.9664,0.9986,0.8829,1.04,1.04,morgan
+P28074,Proteasome subunit beta type-5,Proteasome,XGBoost,615,155,149,0.8826,0.9949,0.8829,1.04,1.04,morgan
+P28074,Proteasome subunit beta type-5,Proteasome,SVM_RBF,615,155,149,0.9743,0.9989,0.8829,1.04,1.04,morgan
+P28074,Proteasome subunit beta type-5,Proteasome,DNN,615,155,149,0.8624,0.9915,0.8824,1.04,1.04,morgan
+P56524,Histone deacetylase 4,Epigenetic,RandomForest,611,153,138,0.9193,0.99,0.9256,1.109,1.109,morgan
+P56524,Histone deacetylase 4,Epigenetic,XGBoost,611,153,138,0.8353,0.9685,0.905,1.109,1.109,morgan
+P56524,Histone deacetylase 4,Epigenetic,SVM_RBF,611,153,138,0.8797,0.9792,0.917,1.109,1.109,morgan
+P56524,Histone deacetylase 4,Epigenetic,DNN,611,153,138,0.9217,0.9905,0.9256,1.109,1.109,morgan
+P00338,L-lactate dehydrogenase A chain,Oxidoreductase,RandomForest,549,200,143,0.9937,0.9977,0.9507,1.399,1.399,morgan
+P00338,L-lactate dehydrogenase A chain,Oxidoreductase,XGBoost,549,200,143,0.9573,0.9862,0.9507,1.399,1.399,morgan
+P00338,L-lactate dehydrogenase A chain,Oxidoreductase,SVM_RBF,549,200,143,0.9933,0.9974,0.9507,1.399,1.399,morgan
+P00338,L-lactate dehydrogenase A chain,Oxidoreductase,DNN,549,200,143,0.9918,0.9969,0.9507,1.399,1.399,morgan
+P53350,Serine/threonine-protein kinase PLK1,Kinase,RandomForest,585,160,156,0.9455,0.9986,0.8445,1.026,1.026,morgan
+P53350,Serine/threonine-protein kinase PLK1,Kinase,XGBoost,585,160,156,0.9423,0.9985,0.8445,1.026,1.026,morgan
+P53350,Serine/threonine-protein kinase PLK1,Kinase,SVM_RBF,585,160,156,0.9391,0.9984,0.8445,1.026,1.026,morgan
+P53350,Serine/threonine-protein kinase PLK1,Kinase,DNN,585,160,156,0.9327,0.9982,0.8445,1.026,1.026,morgan
+P05186,"Alkaline phosphatase, tissue-nonspecific isozyme",Epigenetic,RandomForest,556,170,143,0.9145,0.9839,0.9398,1.189,1.189,morgan
+P05186,"Alkaline phosphatase, tissue-nonspecific isozyme",Epigenetic,XGBoost,556,170,143,0.8894,0.9796,0.9398,1.189,1.189,morgan
+P05186,"Alkaline phosphatase, tissue-nonspecific isozyme",Epigenetic,SVM_RBF,556,170,143,0.8789,0.9765,0.9398,1.189,1.189,morgan
+P05186,"Alkaline phosphatase, tissue-nonspecific isozyme",Epigenetic,DNN,556,170,143,0.9179,0.9832,0.9398,1.189,1.189,morgan
+Q9UHL4,Dipeptidyl peptidase 2,Protease,RandomForest,547,149,66,0.9158,0.9002,0.9207,2.258,2.258,morgan
+Q9UHL4,Dipeptidyl peptidase 2,Protease,XGBoost,547,149,66,0.9413,0.9162,0.8985,2.258,2.258,morgan
+Q9UHL4,Dipeptidyl peptidase 2,Protease,SVM_RBF,547,149,66,0.9152,0.9057,0.9129,2.258,2.258,morgan
+Q9UHL4,Dipeptidyl peptidase 2,Protease,DNN,547,149,66,0.9305,0.9192,0.9234,2.258,2.258,morgan
+P39900,Macrophage metalloelastase,Protease,RandomForest,547,136,128,0.9463,0.9967,0.8963,1.062,1.062,morgan
+P39900,Macrophage metalloelastase,Protease,XGBoost,547,136,128,0.7852,0.9837,0.8962,1.062,1.062,morgan
+P39900,Macrophage metalloelastase,Protease,SVM_RBF,547,136,128,0.999,0.9999,0.8963,1.062,1.062,morgan
+P39900,Macrophage metalloelastase,Protease,DNN,547,136,128,0.9971,0.9998,0.8963,1.062,1.062,morgan
+P29475,"Nitric oxide synthase, brain",Lyase,RandomForest,520,152,120,0.9365,0.9836,0.9347,1.267,1.267,morgan
+P29475,"Nitric oxide synthase, brain",Lyase,XGBoost,520,152,120,0.9417,0.9846,0.9347,1.267,1.267,morgan
+P29475,"Nitric oxide synthase, brain",Lyase,SVM_RBF,520,152,120,0.9469,0.9866,0.9347,1.267,1.267,morgan
+P29475,"Nitric oxide synthase, brain",Lyase,DNN,520,152,120,0.9055,0.9771,0.9347,1.267,1.267,morgan
+Q93009,Ubiquitin carboxyl-terminal hydrolase 7,Transferase,RandomForest,522,136,118,0.9503,0.9921,0.9228,1.153,1.153,morgan
+Q93009,Ubiquitin carboxyl-terminal hydrolase 7,Transferase,XGBoost,522,136,118,0.8698,0.9757,0.9227,1.153,1.153,morgan
+Q93009,Ubiquitin carboxyl-terminal hydrolase 7,Transferase,SVM_RBF,522,136,118,0.9461,0.9922,0.9228,1.153,1.153,morgan
+Q93009,Ubiquitin carboxyl-terminal hydrolase 7,Transferase,DNN,522,136,118,0.9301,0.9893,0.9228,1.153,1.153,morgan
+P00747,Plasminogen,Protease,RandomForest,504,131,52,0.9912,0.9907,0.9255,2.519,2.519,morgan
+P00747,Plasminogen,Protease,XGBoost,504,131,52,0.9864,0.9895,0.9255,2.519,2.519,morgan
+P00747,Plasminogen,Protease,SVM_RBF,504,131,52,0.9949,0.9934,0.9255,2.519,2.519,morgan
+P00747,Plasminogen,Protease,DNN,504,131,52,0.9961,0.9949,0.9255,2.519,2.519,morgan
+P12821,Angiotensin-converting enzyme,Protease,RandomForest,464,157,128,0.8922,0.9615,0.9205,1.227,1.227,morgan
+P12821,Angiotensin-converting enzyme,Protease,XGBoost,464,157,128,0.8836,0.9595,0.9238,1.227,1.227,morgan
+P12821,Angiotensin-converting enzyme,Protease,SVM_RBF,464,157,128,0.9655,0.9912,0.9361,1.227,1.227,morgan
+P12821,Angiotensin-converting enzyme,Protease,DNN,464,157,128,0.9763,0.9946,0.9361,1.227,1.227,morgan
+Q96DB2,Histone deacetylase 11,Epigenetic,RandomForest,489,128,125,1.0,1.0,0.7967,1.024,1.024,morgan
+Q96DB2,Histone deacetylase 11,Epigenetic,XGBoost,489,128,125,1.0,1.0,0.7967,1.024,1.024,morgan
+Q96DB2,Histone deacetylase 11,Epigenetic,SVM_RBF,489,128,125,1.0,1.0,0.7967,1.024,1.024,morgan
+Q96DB2,Histone deacetylase 11,Epigenetic,DNN,489,128,125,0.9893,0.9997,0.7967,1.024,1.024,morgan
+P45984,Mitogen-activated protein kinase 9,Kinase,RandomForest,478,129,87,1.0,1.0,0.9244,1.483,1.483,morgan
+P45984,Mitogen-activated protein kinase 9,Kinase,XGBoost,478,129,87,1.0,1.0,0.9244,1.483,1.483,morgan
+P45984,Mitogen-activated protein kinase 9,Kinase,SVM_RBF,478,129,87,1.0,1.0,0.9244,1.483,1.483,morgan
+P45984,Mitogen-activated protein kinase 9,Kinase,DNN,478,129,87,1.0,1.0,0.9244,1.483,1.483,morgan
+P06213,Insulin receptor,GPCR,RandomForest,472,124,106,1.0,1.0,0.917,1.17,1.17,morgan
+P06213,Insulin receptor,GPCR,XGBoost,472,124,106,1.0,1.0,0.917,1.17,1.17,morgan
+P06213,Insulin receptor,GPCR,SVM_RBF,472,124,106,1.0,1.0,0.917,1.17,1.17,morgan
+P06213,Insulin receptor,GPCR,DNN,472,124,106,1.0,1.0,0.917,1.17,1.17,morgan
+P11712,Cytochrome P450 2C9,Oxidoreductase,RandomForest,475,119,102,0.8397,0.9654,0.9126,1.167,1.167,morgan
+P11712,Cytochrome P450 2C9,Oxidoreductase,XGBoost,475,119,102,0.8195,0.9564,0.9092,1.167,1.167,morgan
+P11712,Cytochrome P450 2C9,Oxidoreductase,SVM_RBF,475,119,102,0.7653,0.9476,0.9105,1.167,1.167,morgan
+P11712,Cytochrome P450 2C9,Oxidoreductase,DNN,475,119,102,0.8195,0.959,0.9106,1.167,1.167,morgan
+P00734,Prothrombin,Protease,RandomForest,457,119,102,0.8414,0.97,0.9133,1.167,1.167,morgan
+P00734,Prothrombin,Protease,XGBoost,457,119,102,0.7676,0.9394,0.8955,1.167,1.167,morgan
+P00734,Prothrombin,Protease,SVM_RBF,457,119,102,0.8619,0.9763,0.9133,1.167,1.167,morgan
+P00734,Prothrombin,Protease,DNN,457,119,102,0.5773,0.905,0.8872,1.167,1.167,morgan
+P28062,Proteasome subunit beta type-8,Proteasome,RandomForest,453,116,114,1.0,1.0,0.7129,1.018,1.018,morgan
+P28062,Proteasome subunit beta type-8,Proteasome,XGBoost,453,116,114,1.0,1.0,0.7129,1.018,1.018,morgan
+P28062,Proteasome subunit beta type-8,Proteasome,SVM_RBF,453,116,114,1.0,1.0,0.7129,1.018,1.018,morgan
+P28062,Proteasome subunit beta type-8,Proteasome,DNN,453,116,114,1.0,1.0,0.7129,1.018,1.018,morgan
+P08912,Muscarinic acetylcholine receptor M5,GPCR,RandomForest,450,112,102,0.9186,0.9921,0.8959,1.098,1.098,morgan
+P08912,Muscarinic acetylcholine receptor M5,GPCR,XGBoost,450,112,102,0.9147,0.9917,0.8959,1.098,1.098,morgan
+P08912,Muscarinic acetylcholine receptor M5,GPCR,SVM_RBF,450,112,102,0.8686,0.9867,0.8959,1.098,1.098,morgan
+P08912,Muscarinic acetylcholine receptor M5,GPCR,DNN,450,112,102,0.8118,0.9808,0.8959,1.098,1.098,morgan
+P98170,E3 ubiquitin-protein ligase XIAP [241-356],Transferase,RandomForest,449,113,104,0.9968,0.9997,0.8922,1.087,1.087,morgan
+P98170,E3 ubiquitin-protein ligase XIAP [241-356],Transferase,XGBoost,449,113,104,0.9904,0.9992,0.8922,1.087,1.087,morgan
+P98170,E3 ubiquitin-protein ligase XIAP [241-356],Transferase,SVM_RBF,449,113,104,0.953,0.9958,0.8922,1.087,1.087,morgan
+P98170,E3 ubiquitin-protein ligase XIAP [241-356],Transferase,DNN,449,113,104,0.984,0.9986,0.8922,1.087,1.087,morgan
+P35228,"Nitric oxide synthase, inducible",Lyase,RandomForest,440,114,91,0.7028,0.9166,0.912,1.253,1.253,morgan
+P35228,"Nitric oxide synthase, inducible",Lyase,XGBoost,440,114,91,0.716,0.8896,0.7861,1.253,1.002,morgan
+P35228,"Nitric oxide synthase, inducible",Lyase,SVM_RBF,440,114,91,0.9216,0.9824,0.9133,1.253,1.253,morgan
+P35228,"Nitric oxide synthase, inducible",Lyase,DNN,440,114,91,0.6641,0.8939,0.9076,1.253,1.253,morgan
+P23946,Chymase,Protease,RandomForest,412,107,105,0.8095,0.9961,0.7097,1.019,1.019,morgan
+P23946,Chymase,Protease,XGBoost,412,107,105,0.8143,0.9962,0.7097,1.019,1.019,morgan
+P23946,Chymase,Protease,SVM_RBF,412,107,105,0.7476,0.9945,0.7097,1.019,1.019,morgan
+P23946,Chymase,Protease,DNN,412,107,105,0.8048,0.996,0.7097,1.019,1.019,morgan
+P29466,Caspase-1,Protease,RandomForest,405,110,83,0.9978,0.9993,0.9112,1.325,1.325,morgan
+P29466,Caspase-1,Protease,XGBoost,405,110,83,0.9915,0.997,0.9112,1.325,1.325,morgan
+P29466,Caspase-1,Protease,SVM_RBF,405,110,83,0.9781,0.9921,0.9112,1.325,1.325,morgan
+P29466,Caspase-1,Protease,DNN,405,110,83,0.9705,0.9878,0.9111,1.325,1.325,morgan
+P48775,"Tryptophan 2,3-dioxygenase",Oxidoreductase,RandomForest,370,98,69,0.8726,0.9576,0.9012,1.42,1.42,morgan
+P48775,"Tryptophan 2,3-dioxygenase",Oxidoreductase,XGBoost,370,98,69,0.9005,0.9631,0.9012,1.42,1.42,morgan
+P48775,"Tryptophan 2,3-dioxygenase",Oxidoreductase,SVM_RBF,370,98,69,0.9175,0.9697,0.9011,1.42,1.42,morgan
+P48775,"Tryptophan 2,3-dioxygenase",Oxidoreductase,DNN,370,98,69,0.8531,0.9497,0.9011,1.42,1.42,morgan
+P14920,D-amino-acid oxidase,Oxidoreductase,RandomForest,352,89,77,0.974,0.9962,0.884,1.156,1.156,morgan
+P14920,D-amino-acid oxidase,Oxidoreductase,XGBoost,352,89,77,0.9848,0.9978,0.884,1.156,1.156,morgan
+P14920,D-amino-acid oxidase,Oxidoreductase,SVM_RBF,352,89,77,0.9708,0.9957,0.884,1.156,1.156,morgan
+P14920,D-amino-acid oxidase,Oxidoreductase,DNN,352,89,77,0.9838,0.9977,0.884,1.156,1.156,morgan
+P35218,"Carbonic anhydrase 5A, mitochondrial",Lyase,RandomForest,346,93,69,0.8364,0.9488,0.8957,1.348,1.348,morgan
+P35218,"Carbonic anhydrase 5A, mitochondrial",Lyase,XGBoost,346,93,69,0.8735,0.9194,0.7213,0.0,1.011,morgan
+P35218,"Carbonic anhydrase 5A, mitochondrial",Lyase,SVM_RBF,346,93,69,0.846,0.9461,0.8956,1.348,1.348,morgan
+P35218,"Carbonic anhydrase 5A, mitochondrial",Lyase,DNN,346,93,69,0.6534,0.814,0.6578,0.0,1.011,morgan
+P48067,Sodium- and chloride-dependent glycine transporter,Ion Channel,RandomForest,312,124,99,0.8368,0.9493,0.9192,1.253,1.253,morgan
+P48067,Sodium- and chloride-dependent glycine transporter,Ion Channel,XGBoost,312,124,99,0.8715,0.9611,0.9199,1.253,1.253,morgan
+P48067,Sodium- and chloride-dependent glycine transporter,Ion Channel,SVM_RBF,312,124,99,0.8869,0.9624,0.9185,1.253,1.253,morgan
+P48067,Sodium- and chloride-dependent glycine transporter,Ion Channel,DNN,312,124,99,0.762,0.9231,0.9138,1.253,1.253,morgan
+P47989,Xanthine dehydrogenase/oxidase,Oxidoreductase,RandomForest,342,88,70,0.9452,0.9872,0.8888,1.257,1.257,morgan
+P47989,Xanthine dehydrogenase/oxidase,Oxidoreductase,XGBoost,342,88,70,0.9159,0.9692,0.8868,1.257,1.257,morgan
+P47989,Xanthine dehydrogenase/oxidase,Oxidoreductase,SVM_RBF,342,88,70,0.8944,0.9759,0.8888,1.257,1.257,morgan
+P47989,Xanthine dehydrogenase/oxidase,Oxidoreductase,DNN,342,88,70,0.8698,0.9692,0.8888,1.257,1.257,morgan
+P20701,Integrin alpha-L/Integrin beta-2/Intercellular adh,Structural,RandomForest,329,85,63,0.9993,0.9998,0.8863,1.349,1.349,morgan
+P20701,Integrin alpha-L/Integrin beta-2/Intercellular adh,Structural,XGBoost,329,85,63,0.9986,0.9995,0.8863,1.349,1.349,morgan
+P20701,Integrin alpha-L/Integrin beta-2/Intercellular adh,Structural,SVM_RBF,329,85,63,0.987,0.9959,0.8863,1.349,1.349,morgan
+P20701,Integrin alpha-L/Integrin beta-2/Intercellular adh,Structural,DNN,329,85,63,0.9942,0.9981,0.8863,1.349,1.349,morgan
+P11597,Cholesteryl ester transfer protein,Metabolic,RandomForest,322,83,79,0.818,0.9899,0.813,1.051,1.051,morgan
+P11597,Cholesteryl ester transfer protein,Metabolic,XGBoost,322,83,79,0.8196,0.9902,0.813,1.051,1.051,morgan
+P11597,Cholesteryl ester transfer protein,Metabolic,SVM_RBF,322,83,79,0.7896,0.9884,0.813,1.051,1.051,morgan
+P11597,Cholesteryl ester transfer protein,Metabolic,DNN,322,83,79,0.8592,0.9921,0.813,1.051,1.051,morgan
+P04062,Lysosomal acid glucosylceramidase,Hydrolase,RandomForest,295,93,62,0.4024,0.6926,0.8475,1.5,1.5,morgan
+P04062,Lysosomal acid glucosylceramidase,Hydrolase,XGBoost,295,93,62,0.3551,0.5922,0.4215,1.5,0.75,morgan
+P04062,Lysosomal acid glucosylceramidase,Hydrolase,SVM_RBF,295,93,62,0.9217,0.9636,0.8962,1.5,1.5,morgan
+P04062,Lysosomal acid glucosylceramidase,Hydrolase,DNN,295,93,62,0.8192,0.8968,0.8929,1.5,1.5,morgan
+P62942,Peptidyl-prolyl cis-trans isomerase FKBP1A,Isomerase,RandomForest,298,83,56,1.0,1.0,0.8842,1.482,1.482,morgan
+P62942,Peptidyl-prolyl cis-trans isomerase FKBP1A,Isomerase,XGBoost,298,83,56,1.0,1.0,0.8842,1.482,1.482,morgan
+P62942,Peptidyl-prolyl cis-trans isomerase FKBP1A,Isomerase,SVM_RBF,298,83,56,1.0,1.0,0.8842,1.482,1.482,morgan
+P62942,Peptidyl-prolyl cis-trans isomerase FKBP1A,Isomerase,DNN,298,83,56,1.0,1.0,0.8842,1.482,1.482,morgan
+O96017,"Serine/threonine-protein kinase Chk2 [209-531,Q209",Kinase,RandomForest,287,83,65,1.0,1.0,0.8828,1.277,1.277,morgan
+O96017,"Serine/threonine-protein kinase Chk2 [209-531,Q209",Kinase,XGBoost,287,83,65,1.0,1.0,0.8828,1.277,1.277,morgan
+O96017,"Serine/threonine-protein kinase Chk2 [209-531,Q209",Kinase,SVM_RBF,287,83,65,1.0,1.0,0.8828,1.277,1.277,morgan
+O96017,"Serine/threonine-protein kinase Chk2 [209-531,Q209",Kinase,DNN,287,83,65,1.0,1.0,0.8828,1.277,1.277,morgan
+P08842,Steryl-sulfatase,Hydrolase,RandomForest,286,83,77,0.974,0.998,0.8487,1.078,1.078,morgan
+P08842,Steryl-sulfatase,Hydrolase,XGBoost,286,83,77,0.855,0.9879,0.8487,1.078,1.078,morgan
+P08842,Steryl-sulfatase,Hydrolase,SVM_RBF,286,83,77,0.7251,0.9758,0.8487,1.078,1.078,morgan
+P08842,Steryl-sulfatase,Hydrolase,DNN,286,83,77,0.7532,0.9688,0.8452,1.078,1.078,morgan
+P55210,Caspase-7,Protease,RandomForest,283,80,62,0.7791,0.9124,0.8516,1.29,1.29,morgan
+P55210,Caspase-7,Protease,XGBoost,283,80,62,0.6541,0.8629,0.8435,1.29,1.29,morgan
+P55210,Caspase-7,Protease,SVM_RBF,283,80,62,0.4238,0.7937,0.7994,1.29,1.29,morgan
+P55210,Caspase-7,Protease,DNN,283,80,62,0.517,0.814,0.7959,1.29,1.29,morgan
+P17706,Tyrosine-protein phosphatase non-receptor type 2,GPCR,RandomForest,276,79,64,1.0,1.0,0.876,1.234,1.234,morgan
+P17706,Tyrosine-protein phosphatase non-receptor type 2,GPCR,XGBoost,276,79,64,0.9833,0.9956,0.876,1.234,1.234,morgan
+P17706,Tyrosine-protein phosphatase non-receptor type 2,GPCR,SVM_RBF,276,79,64,1.0,1.0,0.876,1.234,1.234,morgan
+P17706,Tyrosine-protein phosphatase non-receptor type 2,GPCR,DNN,276,79,64,0.9917,0.9981,0.876,1.234,1.234,morgan
+Q9UQL6,Histone deacetylase 5,Epigenetic,RandomForest,281,71,58,0.9947,0.9989,0.8622,1.224,1.224,morgan
+Q9UQL6,Histone deacetylase 5,Epigenetic,XGBoost,281,71,58,0.996,0.9991,0.8622,1.224,1.224,morgan
+Q9UQL6,Histone deacetylase 5,Epigenetic,SVM_RBF,281,71,58,0.9814,0.9958,0.8622,1.224,1.224,morgan
+Q9UQL6,Histone deacetylase 5,Epigenetic,DNN,281,71,58,0.9841,0.9965,0.8622,1.224,1.224,morgan
+Q8IXJ6,NAD-dependent protein deacetylase sirtuin-2,Epigenetic,RandomForest,274,74,43,0.883,0.9215,0.8702,1.721,1.721,morgan
+Q8IXJ6,NAD-dependent protein deacetylase sirtuin-2,Epigenetic,XGBoost,274,74,43,0.9119,0.9421,0.8705,1.721,1.721,morgan
+Q8IXJ6,NAD-dependent protein deacetylase sirtuin-2,Epigenetic,SVM_RBF,274,74,43,0.8822,0.9265,0.8703,1.721,1.721,morgan
+Q8IXJ6,NAD-dependent protein deacetylase sirtuin-2,Epigenetic,DNN,274,74,43,0.9167,0.9481,0.8706,1.721,1.721,morgan
+P42785,Lysosomal Pro-X carboxypeptidase,Protease,RandomForest,275,70,56,0.9949,0.9988,0.8614,1.25,1.25,morgan
+P42785,Lysosomal Pro-X carboxypeptidase,Protease,XGBoost,275,70,56,0.9949,0.9988,0.8614,1.25,1.25,morgan
+P42785,Lysosomal Pro-X carboxypeptidase,Protease,SVM_RBF,275,70,56,0.9911,0.998,0.8614,1.25,1.25,morgan
+P42785,Lysosomal Pro-X carboxypeptidase,Protease,DNN,275,70,56,0.9962,0.9991,0.8614,1.25,1.25,morgan
+P51812,Ribosomal protein S6 kinase alpha-3,Kinase,RandomForest,256,72,62,0.9532,0.9929,0.8588,1.161,1.161,morgan
+P51812,Ribosomal protein S6 kinase alpha-3,Kinase,XGBoost,256,72,62,0.9419,0.9907,0.8587,1.161,1.161,morgan
+P51812,Ribosomal protein S6 kinase alpha-3,Kinase,SVM_RBF,256,72,62,0.9565,0.9928,0.8587,1.161,1.161,morgan
+P51812,Ribosomal protein S6 kinase alpha-3,Kinase,DNN,256,72,62,0.4742,0.8741,0.8246,1.161,1.161,morgan
+P33261,Cytochrome P450 2C19,Oxidoreductase,RandomForest,257,66,40,0.9173,0.9613,0.8561,1.65,1.65,morgan
+P33261,Cytochrome P450 2C19,Oxidoreductase,XGBoost,257,66,40,0.9106,0.959,0.856,1.65,1.65,morgan
+P33261,Cytochrome P450 2C19,Oxidoreductase,SVM_RBF,257,66,40,0.9769,0.9833,0.8559,1.65,1.65,morgan
+P33261,Cytochrome P450 2C19,Oxidoreductase,DNN,257,66,40,0.9365,0.9654,0.856,1.65,1.65,morgan
+P09237,Matrilysin,Protease,RandomForest,255,68,47,0.9311,0.9696,0.8598,1.447,1.447,morgan
+P09237,Matrilysin,Protease,XGBoost,255,68,47,0.9433,0.9736,0.8598,1.447,1.447,morgan
+P09237,Matrilysin,Protease,SVM_RBF,255,68,47,0.92,0.9714,0.8598,1.447,1.447,morgan
+P09237,Matrilysin,Protease,DNN,255,68,47,0.9179,0.9583,0.8594,1.447,1.447,morgan
+P07099,Epoxide hydrolase 1,Hydrolase,RandomForest,240,61,54,0.9974,0.9997,0.8276,1.13,1.13,morgan
+P07099,Epoxide hydrolase 1,Hydrolase,XGBoost,240,61,54,0.9934,0.9987,0.8276,1.13,1.13,morgan
+P07099,Epoxide hydrolase 1,Hydrolase,SVM_RBF,240,61,54,0.8915,0.9864,0.8276,1.13,1.13,morgan
+P07099,Epoxide hydrolase 1,Hydrolase,DNN,240,61,54,0.6455,0.9419,0.8269,1.13,1.13,morgan
+Q96EB6,NAD-dependent protein deacetylase sirtuin-1,Epigenetic,RandomForest,235,60,18,0.9828,0.9659,0.8396,3.333,3.333,morgan
+Q96EB6,NAD-dependent protein deacetylase sirtuin-1,Epigenetic,XGBoost,235,60,18,0.9563,0.9081,0.8089,3.333,3.333,morgan
+Q96EB6,NAD-dependent protein deacetylase sirtuin-1,Epigenetic,SVM_RBF,235,60,18,0.9259,0.8434,0.7974,3.333,3.333,morgan
+Q96EB6,NAD-dependent protein deacetylase sirtuin-1,Epigenetic,DNN,235,60,18,0.9193,0.824,0.7846,3.333,3.333,morgan
+Q16531,DNA damage-binding protein 1/Protein cereblon,Other,RandomForest,232,60,38,1.0,1.0,0.8425,1.579,1.579,morgan
+Q16531,DNA damage-binding protein 1/Protein cereblon,Other,XGBoost,232,60,38,1.0,1.0,0.8425,1.579,1.579,morgan
+Q16531,DNA damage-binding protein 1/Protein cereblon,Other,SVM_RBF,232,60,38,1.0,1.0,0.8425,1.579,1.579,morgan
+Q16531,DNA damage-binding protein 1/Protein cereblon,Other,DNN,232,60,38,1.0,1.0,0.8425,1.579,1.579,morgan
+Q969S8,Polyamine deacetylase HDAC10,Epigenetic,RandomForest,229,59,55,1.0,1.0,0.7845,1.073,1.073,morgan
+Q969S8,Polyamine deacetylase HDAC10,Epigenetic,XGBoost,229,59,55,0.9864,0.999,0.7845,1.073,1.073,morgan
+Q969S8,Polyamine deacetylase HDAC10,Epigenetic,SVM_RBF,229,59,55,0.9932,0.9993,0.7845,1.073,1.073,morgan
+Q969S8,Polyamine deacetylase HDAC10,Epigenetic,DNN,229,59,55,0.7864,0.9808,0.7845,1.073,1.073,morgan
+Q86WV6,"Stimulator of interferon genes protein [1-379,R71H",Immune,RandomForest,214,65,57,0.3618,0.8626,0.7792,1.14,1.14,morgan
+Q86WV6,"Stimulator of interferon genes protein [1-379,R71H",Immune,XGBoost,214,65,57,0.9408,0.9892,0.8404,1.14,1.14,morgan
+Q86WV6,"Stimulator of interferon genes protein [1-379,R71H",Immune,SVM_RBF,214,65,57,0.8443,0.969,0.8386,1.14,1.14,morgan
+Q86WV6,"Stimulator of interferon genes protein [1-379,R71H",Immune,DNN,214,65,57,0.3838,0.8758,0.7862,1.14,1.14,morgan
+P21397,Amine oxidase [flavin-containing] A,Oxidoreductase,RandomForest,219,58,44,0.6981,0.9147,0.8361,1.318,1.318,morgan
+P21397,Amine oxidase [flavin-containing] A,Oxidoreductase,XGBoost,219,58,44,0.8231,0.9519,0.8362,1.318,1.318,morgan
+P21397,Amine oxidase [flavin-containing] A,Oxidoreductase,SVM_RBF,219,58,44,0.6023,0.8768,0.8357,1.318,1.318,morgan
+P21397,Amine oxidase [flavin-containing] A,Oxidoreductase,DNN,219,58,44,0.6721,0.8249,0.5375,1.318,0.659,morgan
+Q9UKV0,Histone deacetylase 9,Epigenetic,RandomForest,212,53,41,0.9533,0.985,0.8212,1.293,1.293,morgan
+Q9UKV0,Histone deacetylase 9,Epigenetic,XGBoost,212,53,41,0.9207,0.9747,0.8212,1.293,1.293,morgan
+Q9UKV0,Histone deacetylase 9,Epigenetic,SVM_RBF,212,53,41,0.9858,0.9959,0.8212,1.293,1.293,morgan
+Q9UKV0,Histone deacetylase 9,Epigenetic,DNN,212,53,41,0.9837,0.9954,0.8212,1.293,1.293,morgan
+P32297,Neuronal acetylcholine receptor subunit alpha-3,GPCR,RandomForest,208,54,42,0.9464,0.9825,0.8241,1.286,1.286,morgan
+P32297,Neuronal acetylcholine receptor subunit alpha-3,GPCR,XGBoost,208,54,42,0.881,0.9431,0.8045,1.286,1.286,morgan
+P32297,Neuronal acetylcholine receptor subunit alpha-3,GPCR,SVM_RBF,208,54,42,0.9683,0.9905,0.8242,1.286,1.286,morgan
+P32297,Neuronal acetylcholine receptor subunit alpha-3,GPCR,DNN,208,54,42,0.9444,0.9773,0.8235,1.286,1.286,morgan
+P35236,Tyrosine-protein phosphatase non-receptor type 7,GPCR,RandomForest,207,53,9,0.8485,0.7618,0.7632,5.889,5.889,morgan
+P35236,Tyrosine-protein phosphatase non-receptor type 7,GPCR,XGBoost,207,53,9,0.9419,0.8674,0.7843,5.889,5.889,morgan
+P35236,Tyrosine-protein phosphatase non-receptor type 7,GPCR,SVM_RBF,207,53,9,0.7576,0.7344,0.7632,5.889,5.889,morgan
+P35236,Tyrosine-protein phosphatase non-receptor type 7,GPCR,DNN,207,53,9,0.8182,0.7528,0.7632,5.889,5.889,morgan
+P33316,"Deoxyuridine 5'-triphosphate nucleotidohydrolase, ",Epigenetic,RandomForest,198,58,37,1.0,1.0,0.8374,1.568,1.568,morgan
+P33316,"Deoxyuridine 5'-triphosphate nucleotidohydrolase, ",Epigenetic,XGBoost,198,58,37,1.0,1.0,0.8374,1.568,1.568,morgan
+P33316,"Deoxyuridine 5'-triphosphate nucleotidohydrolase, ",Epigenetic,SVM_RBF,198,58,37,1.0,1.0,0.8374,1.568,1.568,morgan
+P33316,"Deoxyuridine 5'-triphosphate nucleotidohydrolase, ",Epigenetic,DNN,198,58,37,1.0,1.0,0.8374,1.568,1.568,morgan
+P14324,Farnesyl pyrophosphate synthase,Epigenetic,RandomForest,178,77,68,0.6111,0.9249,0.8454,1.132,1.132,morgan
+P14324,Farnesyl pyrophosphate synthase,Epigenetic,XGBoost,178,77,68,0.4265,0.8575,0.4675,0.0,0.377,morgan
+P14324,Farnesyl pyrophosphate synthase,Epigenetic,SVM_RBF,178,77,68,0.1405,0.7656,0.1897,0.0,0.0,morgan
+P14324,Farnesyl pyrophosphate synthase,Epigenetic,DNN,178,77,68,0.5343,0.9098,0.8426,1.132,1.132,morgan
+P15144,Aminopeptidase N,Protease,RandomForest,193,61,48,0.9519,0.9872,0.8428,1.271,1.271,morgan
+P15144,Aminopeptidase N,Protease,XGBoost,193,61,48,0.8638,0.961,0.8427,1.271,1.271,morgan
+P15144,Aminopeptidase N,Protease,SVM_RBF,193,61,48,0.8894,0.9634,0.8423,1.271,1.271,morgan
+P15144,Aminopeptidase N,Protease,DNN,193,61,48,0.8878,0.9598,0.8403,1.271,1.271,morgan
+Q00535,Cyclin-dependent kinase 5,Kinase,RandomForest,197,54,46,1.0,1.0,0.8168,1.174,1.174,morgan
+Q00535,Cyclin-dependent kinase 5,Kinase,XGBoost,197,54,46,1.0,1.0,0.8168,1.174,1.174,morgan
+Q00535,Cyclin-dependent kinase 5,Kinase,SVM_RBF,197,54,46,1.0,1.0,0.8168,1.174,1.174,morgan
+Q00535,Cyclin-dependent kinase 5,Kinase,DNN,197,54,46,1.0,1.0,0.8168,1.174,1.174,morgan
+O95551,Tyrosyl-DNA phosphodiesterase 2,Phosphodiesterase,RandomForest,195,49,27,1.0,1.0,0.8097,1.815,1.815,morgan
+O95551,Tyrosyl-DNA phosphodiesterase 2,Phosphodiesterase,XGBoost,195,49,27,0.9983,0.9987,0.8097,1.815,1.815,morgan
+O95551,Tyrosyl-DNA phosphodiesterase 2,Phosphodiesterase,SVM_RBF,195,49,27,1.0,1.0,0.8097,1.815,1.815,morgan
+O95551,Tyrosyl-DNA phosphodiesterase 2,Phosphodiesterase,DNN,195,49,27,1.0,1.0,0.8097,1.815,1.815,morgan
+P17612,cAMP-dependent protein kinase catalytic subunit al,Kinase,RandomForest,171,51,28,1.0,1.0,0.8167,1.821,1.821,morgan
+P17612,cAMP-dependent protein kinase catalytic subunit al,Kinase,XGBoost,171,51,28,1.0,1.0,0.8167,1.821,1.821,morgan
+P17612,cAMP-dependent protein kinase catalytic subunit al,Kinase,SVM_RBF,171,51,28,1.0,1.0,0.8167,1.821,1.821,morgan
+P17612,cAMP-dependent protein kinase catalytic subunit al,Kinase,DNN,171,51,28,0.9953,0.9963,0.8167,1.821,1.821,morgan
+P00750,Tissue-type plasminogen activator,Protease,RandomForest,178,44,18,0.9359,0.9084,0.781,2.444,2.444,morgan
+P00750,Tissue-type plasminogen activator,Protease,XGBoost,178,44,18,0.8846,0.8384,0.7146,2.444,2.444,morgan
+P00750,Tissue-type plasminogen activator,Protease,SVM_RBF,178,44,18,0.8974,0.8984,0.788,2.444,2.444,morgan
+P00750,Tissue-type plasminogen activator,Protease,DNN,178,44,18,0.9274,0.918,0.7881,2.444,2.444,morgan
+P07451,Carbonic anhydrase 3,Lyase,RandomForest,174,47,17,0.9686,0.9565,0.801,2.765,2.765,morgan
+P07451,Carbonic anhydrase 3,Lyase,XGBoost,174,47,17,0.9471,0.9146,0.7918,2.765,2.765,morgan
+P07451,Carbonic anhydrase 3,Lyase,SVM_RBF,174,47,17,0.8667,0.8826,0.7997,2.765,2.765,morgan
+P07451,Carbonic anhydrase 3,Lyase,DNN,174,47,17,0.8667,0.8834,0.7997,2.765,2.765,morgan
+Q9UGN5,Poly [ADP-ribose] polymerase 2,Polymerase,RandomForest,173,46,22,1.0,1.0,0.7983,2.091,2.091,morgan
+Q9UGN5,Poly [ADP-ribose] polymerase 2,Polymerase,XGBoost,173,46,22,1.0,1.0,0.7983,2.091,2.091,morgan
+Q9UGN5,Poly [ADP-ribose] polymerase 2,Polymerase,SVM_RBF,173,46,22,1.0,1.0,0.7983,2.091,2.091,morgan
+Q9UGN5,Poly [ADP-ribose] polymerase 2,Polymerase,DNN,173,46,22,1.0,1.0,0.7983,2.091,2.091,morgan
+Q8WUI4,Histone deacetylase 7,Epigenetic,RandomForest,165,45,25,0.87,0.854,0.7382,1.8,1.8,morgan
+Q8WUI4,Histone deacetylase 7,Epigenetic,XGBoost,165,45,25,0.932,0.9608,0.7941,1.8,1.8,morgan
+Q8WUI4,Histone deacetylase 7,Epigenetic,SVM_RBF,165,45,25,0.918,0.9175,0.7808,1.8,1.8,morgan
+Q8WUI4,Histone deacetylase 7,Epigenetic,DNN,165,45,25,0.93,0.9398,0.7929,1.8,1.8,morgan
+P14174,Macrophage migration inhibitory factor,Other,RandomForest,157,49,32,0.9136,0.9634,0.8096,1.531,1.531,morgan
+P14174,Macrophage migration inhibitory factor,Other,XGBoost,157,49,32,0.8474,0.935,0.8095,1.531,1.531,morgan
+P14174,Macrophage migration inhibitory factor,Other,SVM_RBF,157,49,32,0.829,0.9294,0.8095,1.531,1.531,morgan
+P14174,Macrophage migration inhibitory factor,Other,DNN,157,49,32,0.8125,0.9239,0.8095,1.531,1.531,morgan
+Q96LD8,Sentrin-specific protease 8,Protease,RandomForest,156,40,4,0.9583,0.6917,0.5052,10.0,5.0,morgan
+Q96LD8,Sentrin-specific protease 8,Protease,XGBoost,156,40,4,0.9375,0.6951,0.5604,10.0,5.0,morgan
+Q96LD8,Sentrin-specific protease 8,Protease,SVM_RBF,156,40,4,0.7431,0.2171,0.0812,0.0,0.0,morgan
+Q96LD8,Sentrin-specific protease 8,Protease,DNN,156,40,4,0.7778,0.2515,0.0786,0.0,0.0,morgan
+P11509,Cytochrome P450 2A6,Oxidoreductase,RandomForest,151,41,35,0.8667,0.9765,0.7632,1.171,1.171,morgan
+P11509,Cytochrome P450 2A6,Oxidoreductase,XGBoost,151,41,35,0.8405,0.9542,0.7528,1.171,1.171,morgan
+P11509,Cytochrome P450 2A6,Oxidoreductase,SVM_RBF,151,41,35,0.5524,0.9137,0.7628,1.171,1.171,morgan
+P11509,Cytochrome P450 2A6,Oxidoreductase,DNN,151,41,35,0.9429,0.9903,0.7632,1.171,1.171,morgan
+Q9H7Z6,Histone acetyltransferase KAT8,Epigenetic,RandomForest,145,44,15,0.954,0.9619,0.7894,2.933,2.933,morgan
+Q9H7Z6,Histone acetyltransferase KAT8,Epigenetic,XGBoost,145,44,15,0.9379,0.9561,0.7894,2.933,2.933,morgan
+Q9H7Z6,Histone acetyltransferase KAT8,Epigenetic,SVM_RBF,145,44,15,0.9471,0.9596,0.7894,2.933,2.933,morgan
+Q9H7Z6,Histone acetyltransferase KAT8,Epigenetic,DNN,145,44,15,0.9586,0.9636,0.7894,2.933,2.933,morgan
+P51452,Dual specificity protein phosphatase 3,Epigenetic,RandomForest,149,40,5,1.0,1.0,0.7707,8.0,8.0,morgan
+P51452,Dual specificity protein phosphatase 3,Epigenetic,XGBoost,149,40,5,1.0,1.0,0.7707,8.0,8.0,morgan
+P51452,Dual specificity protein phosphatase 3,Epigenetic,SVM_RBF,149,40,5,0.9486,0.6783,0.4859,8.0,4.0,morgan
+P51452,Dual specificity protein phosphatase 3,Epigenetic,DNN,149,40,5,0.9829,0.925,0.736,8.0,8.0,morgan
+P35869,Aryl hydrocarbon receptor,GPCR,RandomForest,147,38,32,0.1979,0.7329,0.192,0.0,0.0,morgan
+P35869,Aryl hydrocarbon receptor,GPCR,XGBoost,147,38,32,0.6016,0.9013,0.7256,1.188,1.188,morgan
+P35869,Aryl hydrocarbon receptor,GPCR,SVM_RBF,147,38,32,0.5156,0.8843,0.7407,1.188,1.188,morgan
+P35869,Aryl hydrocarbon receptor,GPCR,DNN,147,38,32,0.3594,0.8146,0.6558,1.188,1.188,morgan
+P80365,11-beta-hydroxysteroid dehydrogenase type 2,Oxidoreductase,RandomForest,143,37,23,1.0,1.0,0.7538,1.609,1.609,morgan
+P80365,11-beta-hydroxysteroid dehydrogenase type 2,Oxidoreductase,XGBoost,143,37,23,1.0,1.0,0.7538,1.609,1.609,morgan
+P80365,11-beta-hydroxysteroid dehydrogenase type 2,Oxidoreductase,SVM_RBF,143,37,23,1.0,1.0,0.7538,1.609,1.609,morgan
+P80365,11-beta-hydroxysteroid dehydrogenase type 2,Oxidoreductase,DNN,143,37,23,1.0,1.0,0.7538,1.609,1.609,morgan
+Q14790,Caspase-8,Protease,RandomForest,135,38,26,1.0,1.0,0.7594,1.462,1.462,morgan
+Q14790,Caspase-8,Protease,XGBoost,135,38,26,1.0,1.0,0.7594,1.462,1.462,morgan
+Q14790,Caspase-8,Protease,SVM_RBF,135,38,26,1.0,1.0,0.7594,1.462,1.462,morgan
+Q14790,Caspase-8,Protease,DNN,135,38,26,1.0,1.0,0.7594,1.462,1.462,morgan
+O95749,Geranylgeranyl pyrophosphate synthase,Epigenetic,RandomForest,120,51,33,0.7104,0.7989,0.6126,1.545,1.545,morgan
+O95749,Geranylgeranyl pyrophosphate synthase,Epigenetic,XGBoost,120,51,33,0.5261,0.6942,0.6745,1.545,1.545,morgan
+O95749,Geranylgeranyl pyrophosphate synthase,Epigenetic,SVM_RBF,120,51,33,0.7584,0.8428,0.8036,1.545,1.545,morgan
+O95749,Geranylgeranyl pyrophosphate synthase,Epigenetic,DNN,120,51,33,0.7138,0.8309,0.8017,1.545,1.545,morgan
+P62937,Peptidyl-prolyl cis-trans isomerase A,Isomerase,RandomForest,129,36,20,1.0,1.0,0.7478,1.8,1.8,morgan
+P62937,Peptidyl-prolyl cis-trans isomerase A,Isomerase,XGBoost,129,36,20,1.0,1.0,0.7478,1.8,1.8,morgan
+P62937,Peptidyl-prolyl cis-trans isomerase A,Isomerase,SVM_RBF,129,36,20,1.0,1.0,0.7478,1.8,1.8,morgan
+P62937,Peptidyl-prolyl cis-trans isomerase A,Isomerase,DNN,129,36,20,1.0,1.0,0.7478,1.8,1.8,morgan
+Q9HCG7,Non-lysosomal glucosylceramidase,Hydrolase,RandomForest,100,62,38,0.9803,0.9898,0.8473,1.632,1.632,morgan
+Q9HCG7,Non-lysosomal glucosylceramidase,Hydrolase,XGBoost,100,62,38,0.9759,0.9844,0.8473,1.632,1.632,morgan
+Q9HCG7,Non-lysosomal glucosylceramidase,Hydrolase,SVM_RBF,100,62,38,0.9956,0.9975,0.8473,1.632,1.632,morgan
+Q9HCG7,Non-lysosomal glucosylceramidase,Hydrolase,DNN,100,62,38,0.9868,0.9927,0.8473,1.632,1.632,morgan
+P53985,Monocarboxylate transporter 1,Transporter,RandomForest,128,33,22,0.8802,0.9472,0.727,1.5,1.5,morgan
+P53985,Monocarboxylate transporter 1,Transporter,XGBoost,128,33,22,0.8967,0.9546,0.727,1.5,1.5,morgan
+P53985,Monocarboxylate transporter 1,Transporter,SVM_RBF,128,33,22,0.9174,0.9605,0.727,1.5,1.5,morgan
+P53985,Monocarboxylate transporter 1,Transporter,DNN,128,33,22,0.8595,0.9308,0.7266,1.5,1.5,morgan
+Q13526,Peptidyl-prolyl cis-trans isomerase NIMA-interacti,Isomerase,RandomForest,119,34,21,0.8974,0.9097,0.7033,1.619,1.619,morgan
+Q13526,Peptidyl-prolyl cis-trans isomerase NIMA-interacti,Isomerase,XGBoost,119,34,21,0.8645,0.8973,0.7274,1.619,1.619,morgan
+Q13526,Peptidyl-prolyl cis-trans isomerase NIMA-interacti,Isomerase,SVM_RBF,119,34,21,0.9744,0.9862,0.7344,1.619,1.619,morgan
+Q13526,Peptidyl-prolyl cis-trans isomerase NIMA-interacti,Isomerase,DNN,119,34,21,0.978,0.9877,0.7344,1.619,1.619,morgan
+Q99571,P2X purinoceptor 4,Ion Channel,RandomForest,120,32,20,1.0,1.0,0.7197,1.6,1.6,morgan
+Q99571,P2X purinoceptor 4,Ion Channel,XGBoost,120,32,20,1.0,1.0,0.7197,1.6,1.6,morgan
+Q99571,P2X purinoceptor 4,Ion Channel,SVM_RBF,120,32,20,1.0,1.0,0.7197,1.6,1.6,morgan
+Q99571,P2X purinoceptor 4,Ion Channel,DNN,120,32,20,1.0,1.0,0.7197,1.6,1.6,morgan
+P36222,Chitinase-3-like protein 1,Other,RandomForest,113,38,18,0.6361,0.6471,0.445,0.0,0.0,morgan
+P36222,Chitinase-3-like protein 1,Other,XGBoost,113,38,18,0.6806,0.7303,0.7166,2.111,2.111,morgan
+P36222,Chitinase-3-like protein 1,Other,SVM_RBF,113,38,18,0.7472,0.7958,0.7507,2.111,2.111,morgan
+P36222,Chitinase-3-like protein 1,Other,DNN,113,38,18,0.775,0.8269,0.7562,2.111,2.111,morgan
+O95180,Voltage-dependent T-type calcium channel subunit a,Ion Channel,RandomForest,107,38,15,1.0,1.0,0.7598,2.533,2.533,morgan
+O95180,Voltage-dependent T-type calcium channel subunit a,Ion Channel,XGBoost,107,38,15,1.0,1.0,0.7598,2.533,2.533,morgan
+O95180,Voltage-dependent T-type calcium channel subunit a,Ion Channel,SVM_RBF,107,38,15,1.0,1.0,0.7598,2.533,2.533,morgan
+O95180,Voltage-dependent T-type calcium channel subunit a,Ion Channel,DNN,107,38,15,1.0,1.0,0.7598,2.533,2.533,morgan
+P43003,Excitatory amino acid transporter 1,Transporter,RandomForest,107,38,5,0.6636,0.2128,0.07,0.0,0.0,morgan
+P43003,Excitatory amino acid transporter 1,Transporter,XGBoost,107,38,5,0.5455,0.1753,0.015,0.0,0.0,morgan
+P43003,Excitatory amino acid transporter 1,Transporter,SVM_RBF,107,38,5,0.8697,0.3881,0.1562,0.0,0.0,morgan
+P43003,Excitatory amino acid transporter 1,Transporter,DNN,107,38,5,0.8242,0.3583,0.1358,0.0,0.0,morgan
+Q9H2X9,Solute carrier family 12 member 5,Transporter,RandomForest,116,28,20,0.5125,0.7798,0.5994,1.4,1.4,morgan
+Q9H2X9,Solute carrier family 12 member 5,Transporter,XGBoost,116,28,20,0.5063,0.7152,0.2917,0.0,0.0,morgan
+Q9H2X9,Solute carrier family 12 member 5,Transporter,SVM_RBF,116,28,20,0.4688,0.7483,0.5113,1.4,1.4,morgan
+Q9H2X9,Solute carrier family 12 member 5,Transporter,DNN,116,28,20,0.575,0.8293,0.6803,1.4,1.4,morgan
+P23526,Adenosylhomocysteinase,Other,RandomForest,113,28,26,0.8077,0.9835,0.5857,1.077,1.077,morgan
+P23526,Adenosylhomocysteinase,Other,XGBoost,113,28,26,0.8365,0.9855,0.5857,1.077,1.077,morgan
+P23526,Adenosylhomocysteinase,Other,SVM_RBF,113,28,26,0.5577,0.938,0.5593,1.077,1.077,morgan
+P23526,Adenosylhomocysteinase,Other,DNN,113,28,26,0.75,0.9786,0.5857,1.077,1.077,morgan
+P49721,Proteasome subunit beta type-2,Proteasome,RandomForest,112,29,11,0.9293,0.9215,0.6928,2.636,2.636,morgan
+P49721,Proteasome subunit beta type-2,Proteasome,XGBoost,112,29,11,0.9091,0.931,0.6936,2.636,2.636,morgan
+P49721,Proteasome subunit beta type-2,Proteasome,SVM_RBF,112,29,11,0.9646,0.9596,0.6938,2.636,2.636,morgan
+P49721,Proteasome subunit beta type-2,Proteasome,DNN,112,29,11,0.9949,0.9924,0.6943,2.636,2.636,morgan
+Q8TEK3,"Histone-lysine N-methyltransferase, H3 lysine-79 s",Epigenetic,RandomForest,110,31,24,0.9762,0.9929,0.7087,1.292,1.292,morgan
+Q8TEK3,"Histone-lysine N-methyltransferase, H3 lysine-79 s",Epigenetic,XGBoost,110,31,24,0.9583,0.9884,0.7087,1.292,1.292,morgan
+Q8TEK3,"Histone-lysine N-methyltransferase, H3 lysine-79 s",Epigenetic,SVM_RBF,110,31,24,0.9286,0.9763,0.7086,1.292,1.292,morgan
+Q8TEK3,"Histone-lysine N-methyltransferase, H3 lysine-79 s",Epigenetic,DNN,110,31,24,0.8452,0.9538,0.7086,1.292,1.292,morgan
+Q9NZ08,Endoplasmic reticulum aminopeptidase 1 (ERAP1),Protease,RandomForest,113,28,14,1.0,1.0,0.685,2.0,2.0,morgan
+Q9NZ08,Endoplasmic reticulum aminopeptidase 1 (ERAP1),Protease,XGBoost,113,28,14,1.0,1.0,0.685,2.0,2.0,morgan
+Q9NZ08,Endoplasmic reticulum aminopeptidase 1 (ERAP1),Protease,SVM_RBF,113,28,14,1.0,1.0,0.685,2.0,2.0,morgan
+Q9NZ08,Endoplasmic reticulum aminopeptidase 1 (ERAP1),Protease,DNN,113,28,14,0.9949,0.9952,0.685,2.0,2.0,morgan
+P11388,DNA topoisomerase 2-alpha,Isomerase,RandomForest,109,27,7,0.6643,0.4536,0.3738,3.857,3.857,morgan
+P11388,DNA topoisomerase 2-alpha,Isomerase,XGBoost,109,27,7,0.8214,0.6851,0.5536,3.857,3.857,morgan
+P11388,DNA topoisomerase 2-alpha,Isomerase,SVM_RBF,109,27,7,0.5071,0.3966,0.3736,3.857,3.857,morgan
+P11388,DNA topoisomerase 2-alpha,Isomerase,DNN,109,27,7,0.7143,0.4967,0.2905,0.0,0.0,morgan
+P08311,Cathepsin G,Protease,RandomForest,108,28,14,0.5357,0.6754,0.6661,2.0,2.0,morgan
+P08311,Cathepsin G,Protease,XGBoost,108,28,14,0.648,0.6016,0.1631,0.0,0.0,morgan
+P08311,Cathepsin G,Protease,SVM_RBF,108,28,14,0.5051,0.6622,0.6658,2.0,2.0,morgan
+P08311,Cathepsin G,Protease,DNN,108,28,14,0.5306,0.6712,0.6658,2.0,2.0,morgan
+Q6PL18,ATPase family AAA domain-containing protein 2,Nucleotide Binding,RandomForest,92,28,13,1.0,1.0,0.685,2.154,2.154,morgan
+Q6PL18,ATPase family AAA domain-containing protein 2,Nucleotide Binding,XGBoost,92,28,13,1.0,1.0,0.685,2.154,2.154,morgan
+Q6PL18,ATPase family AAA domain-containing protein 2,Nucleotide Binding,SVM_RBF,92,28,13,1.0,1.0,0.685,2.154,2.154,morgan
+Q6PL18,ATPase family AAA domain-containing protein 2,Nucleotide Binding,DNN,92,28,13,0.9436,0.9468,0.6846,2.154,2.154,morgan
+P62993,Growth factor receptor-bound protein 2,GPCR,RandomForest,94,23,20,0.7,0.9561,0.5978,1.15,1.15,morgan
+P62993,Growth factor receptor-bound protein 2,GPCR,XGBoost,94,23,20,0.775,0.9639,0.5978,1.15,1.15,morgan
+P62993,Growth factor receptor-bound protein 2,GPCR,SVM_RBF,94,23,20,0.9,0.9861,0.5978,1.15,1.15,morgan
+P62993,Growth factor receptor-bound protein 2,GPCR,DNN,94,23,20,0.3667,0.8691,0.5848,1.15,1.15,morgan
+Q99895,Chymotrypsin-C,Protease,RandomForest,84,28,8,1.0,1.0,0.685,3.5,3.5,morgan
+Q99895,Chymotrypsin-C,Protease,XGBoost,84,28,8,0.9437,0.9089,0.6784,3.5,3.5,morgan
+Q99895,Chymotrypsin-C,Protease,SVM_RBF,84,28,8,0.9375,0.9042,0.6784,3.5,3.5,morgan
+Q99895,Chymotrypsin-C,Protease,DNN,84,28,8,0.9375,0.9306,0.6827,3.5,3.5,morgan
+Q6P179,Endoplasmic reticulum aminopeptidase 2,Protease,RandomForest,87,24,15,1.0,1.0,0.6403,1.6,1.6,morgan
+Q6P179,Endoplasmic reticulum aminopeptidase 2,Protease,XGBoost,87,24,15,1.0,1.0,0.6403,1.6,1.6,morgan
+Q6P179,Endoplasmic reticulum aminopeptidase 2,Protease,SVM_RBF,87,24,15,0.9704,0.9844,0.6403,1.6,1.6,morgan
+Q6P179,Endoplasmic reticulum aminopeptidase 2,Protease,DNN,87,24,15,0.9704,0.983,0.6403,1.6,1.6,morgan
+P20618,Proteasome subunit beta type-1,Proteasome,RandomForest,82,27,9,1.0,1.0,0.6749,3.0,3.0,morgan
+P20618,Proteasome subunit beta type-1,Proteasome,XGBoost,82,27,9,0.9753,0.9658,0.674,3.0,3.0,morgan
+P20618,Proteasome subunit beta type-1,Proteasome,SVM_RBF,82,27,9,0.9691,0.9603,0.674,3.0,3.0,morgan
+P20618,Proteasome subunit beta type-1,Proteasome,DNN,82,27,9,1.0,1.0,0.6749,3.0,3.0,morgan
+P14679,Tyrosinase,Other,RandomForest,74,20,4,0.5469,0.4557,0.3816,5.0,5.0,morgan
+P14679,Tyrosinase,Other,XGBoost,74,20,4,0.3281,0.1836,0.0005,0.0,0.0,morgan
+P14679,Tyrosinase,Other,SVM_RBF,74,20,4,0.5469,0.3208,0.1404,0.0,0.0,morgan
+P14679,Tyrosinase,Other,DNN,74,20,4,0.5156,0.4213,0.3751,5.0,5.0,morgan
+P05413,"Fatty acid-binding protein, heart",Metabolic,RandomForest,70,22,10,0.7583,0.7792,0.6013,2.2,2.2,morgan
+P05413,"Fatty acid-binding protein, heart",Metabolic,XGBoost,70,22,10,0.375,0.4109,0.064,0.0,0.0,morgan
+P05413,"Fatty acid-binding protein, heart",Metabolic,SVM_RBF,70,22,10,0.85,0.7509,0.247,0.0,0.0,morgan
+P05413,"Fatty acid-binding protein, heart",Metabolic,DNN,70,22,10,0.65,0.6008,0.2228,0.0,0.0,morgan
+P04066,Tissue alpha-L-fucosidase,Other,RandomForest,62,30,9,0.9735,0.9316,0.7011,3.333,3.333,morgan
+P04066,Tissue alpha-L-fucosidase,Other,XGBoost,62,30,9,0.9683,0.9116,0.6996,3.333,3.333,morgan
+P04066,Tissue alpha-L-fucosidase,Other,SVM_RBF,62,30,9,0.9471,0.875,0.679,3.333,3.333,morgan
+P04066,Tissue alpha-L-fucosidase,Other,DNN,62,30,9,0.9101,0.8346,0.6837,3.333,3.333,morgan
+P53582,Methionine aminopeptidase 1,Protease,RandomForest,70,20,10,0.9,0.9374,0.5818,2.0,2.0,morgan
+P53582,Methionine aminopeptidase 1,Protease,XGBoost,70,20,10,0.885,0.9169,0.5818,2.0,2.0,morgan
+P53582,Methionine aminopeptidase 1,Protease,SVM_RBF,70,20,10,0.93,0.9485,0.5818,2.0,2.0,morgan
+P53582,Methionine aminopeptidase 1,Protease,DNN,70,20,10,0.86,0.9156,0.5818,2.0,2.0,morgan
+P34947,G protein-coupled receptor kinase 5,Kinase,RandomForest,69,21,15,0.8444,0.9509,0.5969,1.4,1.4,morgan
+P34947,G protein-coupled receptor kinase 5,Kinase,XGBoost,69,21,15,0.8667,0.9579,0.5969,1.4,1.4,morgan
+P34947,G protein-coupled receptor kinase 5,Kinase,SVM_RBF,69,21,15,0.8222,0.9449,0.5969,1.4,1.4,morgan
+P34947,G protein-coupled receptor kinase 5,Kinase,DNN,69,21,15,0.8111,0.9424,0.5969,1.4,1.4,morgan
+Q8IU80,Transmembrane protease serine 6,Protease,RandomForest,68,20,12,1.0,1.0,0.5818,1.667,1.667,morgan
+Q8IU80,Transmembrane protease serine 6,Protease,XGBoost,68,20,12,1.0,1.0,0.5818,1.667,1.667,morgan
+Q8IU80,Transmembrane protease serine 6,Protease,SVM_RBF,68,20,12,1.0,1.0,0.5818,1.667,1.667,morgan
+Q8IU80,Transmembrane protease serine 6,Protease,DNN,68,20,12,1.0,1.0,0.5818,1.667,1.667,morgan
+Q9BYT3,Serine/threonine-protein kinase 33,Kinase,RandomForest,67,16,13,1.0,1.0,0.4899,1.231,1.231,morgan
+Q9BYT3,Serine/threonine-protein kinase 33,Kinase,XGBoost,67,16,13,1.0,1.0,0.4899,1.231,1.231,morgan
+Q9BYT3,Serine/threonine-protein kinase 33,Kinase,SVM_RBF,67,16,13,1.0,1.0,0.4899,1.231,1.231,morgan
+Q9BYT3,Serine/threonine-protein kinase 33,Kinase,DNN,67,16,13,1.0,1.0,0.4899,1.231,1.231,morgan
+P02766,Transthyretin,Other,RandomForest,64,18,14,1.0,1.0,0.5399,1.286,1.286,morgan
+P02766,Transthyretin,Other,XGBoost,64,18,14,1.0,1.0,0.5399,1.286,1.286,morgan
+P02766,Transthyretin,Other,SVM_RBF,64,18,14,1.0,1.0,0.5399,1.286,1.286,morgan
+P02766,Transthyretin,Other,DNN,64,18,14,1.0,1.0,0.5399,1.286,1.286,morgan
+P00748,Coagulation factor XII,Protease,RandomForest,60,21,6,0.6111,0.6634,0.566,3.5,3.5,morgan
+P00748,Coagulation factor XII,Protease,XGBoost,60,21,6,0.6444,0.7004,0.5689,3.5,3.5,morgan
+P00748,Coagulation factor XII,Protease,SVM_RBF,60,21,6,0.6667,0.7248,0.574,3.5,3.5,morgan
+P00748,Coagulation factor XII,Protease,DNN,60,21,6,0.5667,0.5785,0.5191,3.5,3.5,morgan

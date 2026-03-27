@@ -5,7 +5,7 @@ Article 01 — Benchmarking Machine Learning Models for Bioactivity Prediction
 ================================================================================
 Authors : Abubakar Siddiq Salihu, Muhammad Sulaiman Rahma,
           Wan Mohd Nuzul Hakim Wan Salleh, Nura Suleiman Gwaram,
-          Sulaiman Sani Yusuf
+          Sulaiman Sani Yusuf, Abdulganiyu Mannir
 Journal : Journal of Chemical Information and Modeling (submitted 2026)
 GitHub  : https://github.com/[YOUR_USERNAME]/bindingdb-qsar-benchmark
 Zenodo  : https://doi.org/[YOUR_DOI]

@@ -5,8 +5,9 @@
 Abubakar Siddiq Salihu, Muhammad Sulaiman Rahma, Wan Mohd Nuzul Hakim Wan Salleh, Nura Suleiman Gwaram, Sulaiman Sani Yusuf, Abdulganiyu Mannir
 
 Department of Pure and Industrial Chemistry, Umaru Musa Yar'adua University (UMYU), Katsina, Nigeria
+Department of Science and Mathematics, Universiti Pendidikan Sultan Idris, Malaysia
 
-*Submitted to Journal of Chemical Information and Modeling, 2026*
+*Submitted to Journal of Cheminformatics, 2026*
 
 ---
 
@@ -127,13 +128,13 @@ Pre-computed feature matrices and model results are available on Zenodo: [DOI to
 
 If you use this code or data, please cite:
 
-> Salihu AS, Rahma MS, Wan Salleh WMNH, Gwaram NS, Yusuf SS. Benchmarking Machine Learning Models for Bioactivity Prediction Across Human Protein Targets Using BindingDB: A Large-Scale Scaffold-Split Evaluation. *J. Chem. Inf. Model.* 2026 (submitted).
+> Salihu AS, Rahma MS, Wan Salleh WMNH, Gwaram NS, Yusuf SS. Benchmarking Machine Learning Models for Bioactivity Prediction Across Human Protein Targets Using BindingDB: A Large-Scale Scaffold-Split Evaluation. *J. Chem.* 2026 (submitted).
 
 ---
 
 ## Contact
 
-Abubakar Siddiq Salihu
+Dr. Abubakar Siddiq Salihu
 Department of Pure and Industrial Chemistry
 Umaru Musa Yar'adua University, Katsina, Nigeria
 abusiddiq.salihu@umyu.edu.ng

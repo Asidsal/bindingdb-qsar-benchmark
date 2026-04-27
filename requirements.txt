@@ -1,6 +1,6 @@
 # Article 01 — BindingDB QSAR Benchmark
 # Abubakar Siddiq Salihu et al. (2026)
-# J. Chem. Inf. Model. (submitted)
+# Journal of Cheminformatics (submitted)
 #
 # Install all dependencies:
 #   pip install -r requirements.txt

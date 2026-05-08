@@ -3,7 +3,7 @@
 Article 01 — Benchmarking Machine Learning Models for Bioactivity Prediction
              Across Human Protein Targets Using BindingDB
 ================================================================================
-Authors : Abubakar Siddiq Salihu, Muhammad Sulaiman Rahma,
+Authors : Abubakar Siddiq Salihu, Muhammad Sulaiman Rahama,
           Wan Mohd Nuzul Hakim Wan Salleh, Nura Suleiman Gwaram,
           Sulaiman Sani Yusuf, Abdulganiyu Mannir
 Journal : Journal of Cheminformatics (submitted 2026)
